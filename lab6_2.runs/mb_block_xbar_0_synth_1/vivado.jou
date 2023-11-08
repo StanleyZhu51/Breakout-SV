@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Oct 16 22:55:46 2023
+# Process ID: 2940
+# Current directory: C:/Users/allen/Desktop/ECE385/lab6_2/lab6_2.runs/mb_block_xbar_0_synth_1
+# Command line: vivado.exe -log mb_block_xbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_block_xbar_0.tcl
+# Log file: C:/Users/allen/Desktop/ECE385/lab6_2/lab6_2.runs/mb_block_xbar_0_synth_1/mb_block_xbar_0.vds
+# Journal file: C:/Users/allen/Desktop/ECE385/lab6_2/lab6_2.runs/mb_block_xbar_0_synth_1\vivado.jou
+# Running On: LAPTOP-C28MNMG2, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 12510 MB
+#-----------------------------------------------------------
+source mb_block_xbar_0.tcl -notrace
