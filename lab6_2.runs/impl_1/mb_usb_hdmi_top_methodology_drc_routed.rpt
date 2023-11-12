@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Tue Nov  7 20:09:37 2023
+| Date         : Sat Nov 11 22:18:26 2023
 | Host         : DESKTOP-02DFB66 running 64-bit major release  (build 9200)
 | Command      : report_methodology -file mb_usb_hdmi_top_methodology_drc_routed.rpt -pb mb_usb_hdmi_top_methodology_drc_routed.pb -rpx mb_usb_hdmi_top_methodology_drc_routed.rpx
 | Design       : mb_usb_hdmi_top
@@ -23,12 +23,12 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 93
+             Violations found: 92
 +-----------+------------------+------------------------------------------------------------------+------------+
 | Rule      | Severity         | Description                                                      | Violations |
 +-----------+------------------+------------------------------------------------------------------+------------+
 | TIMING-4  | Critical Warning | Invalid primary clock redefinition on a clock tree               | 2          |
-| TIMING-17 | Critical Warning | Non-clocked sequential cell                                      | 36         |
+| TIMING-17 | Critical Warning | Non-clocked sequential cell                                      | 35         |
 | TIMING-27 | Critical Warning | Invalid primary clock on hierarchical pin                        | 2          |
 | CKLD-2    | Warning          | Clock Net has IO Driver, not a Clock Buf, and/or non-Clock loads | 1          |
 | LUTAR-1   | Warning          | LUT drives async reset alert                                     | 4          |
@@ -151,80 +151,75 @@ Related violations: <none>
 
 TIMING-17#21 Critical Warning
 Non-clocked sequential cell  
-The clock pin ball_instance/Ball_X_Motion_reg[0]/C is not reached by a timing clock
+The clock pin ball_instance/Ball_X_Motion_reg[8]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#22 Critical Warning
 Non-clocked sequential cell  
-The clock pin ball_instance/Ball_X_Motion_reg[8]/C is not reached by a timing clock
+The clock pin ball_instance/Ball_Y_Motion_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#23 Critical Warning
 Non-clocked sequential cell  
-The clock pin ball_instance/Ball_Y_Motion_reg[0]/C is not reached by a timing clock
+The clock pin ball_instance/Ball_Y_Motion_reg[8]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#24 Critical Warning
 Non-clocked sequential cell  
-The clock pin ball_instance/Ball_Y_Motion_reg[8]/C is not reached by a timing clock
+The clock pin pad/PaddleX_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#25 Critical Warning
 Non-clocked sequential cell  
-The clock pin pad/PaddleX_reg[0]/C is not reached by a timing clock
+The clock pin pad/PaddleX_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#26 Critical Warning
 Non-clocked sequential cell  
-The clock pin pad/PaddleX_reg[1]/C is not reached by a timing clock
+The clock pin pad/PaddleX_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#27 Critical Warning
 Non-clocked sequential cell  
-The clock pin pad/PaddleX_reg[2]/C is not reached by a timing clock
+The clock pin pad/PaddleX_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#28 Critical Warning
 Non-clocked sequential cell  
-The clock pin pad/PaddleX_reg[3]/C is not reached by a timing clock
+The clock pin pad/PaddleX_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#29 Critical Warning
 Non-clocked sequential cell  
-The clock pin pad/PaddleX_reg[4]/C is not reached by a timing clock
+The clock pin pad/PaddleX_reg[5]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#30 Critical Warning
 Non-clocked sequential cell  
-The clock pin pad/PaddleX_reg[5]/C is not reached by a timing clock
+The clock pin pad/PaddleX_reg[6]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#31 Critical Warning
 Non-clocked sequential cell  
-The clock pin pad/PaddleX_reg[6]/C is not reached by a timing clock
+The clock pin pad/PaddleX_reg[7]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#32 Critical Warning
 Non-clocked sequential cell  
-The clock pin pad/PaddleX_reg[7]/C is not reached by a timing clock
+The clock pin pad/PaddleX_reg[8]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#33 Critical Warning
 Non-clocked sequential cell  
-The clock pin pad/PaddleX_reg[8]/C is not reached by a timing clock
+The clock pin pad/PaddleX_reg[9]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#34 Critical Warning
 Non-clocked sequential cell  
-The clock pin pad/PaddleX_reg[9]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#35 Critical Warning
-Non-clocked sequential cell  
 The clock pin pad/Paddle_X_Motion_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
-TIMING-17#36 Critical Warning
+TIMING-17#35 Critical Warning
 Non-clocked sequential cell  
 The clock pin pad/Paddle_X_Motion_reg[2]/C is not reached by a timing clock
 Related violations: <none>

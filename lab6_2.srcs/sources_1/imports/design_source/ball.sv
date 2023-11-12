@@ -16,6 +16,8 @@
 
 module  ball ( input logic Reset, frame_clk,
 			   input logic [7:0] keycode,
+//			   input logic up, down, left, right,
+               input logic [9:0]  PaddleX, PaddleY, PaddleS,
                output logic [9:0]  BallX, BallY, BallS );
     
     logic [9:0] Ball_X_Motion, Ball_Y_Motion;
@@ -29,53 +31,55 @@ module  ball ( input logic Reset, frame_clk,
     parameter [9:0] Ball_X_Step=1;      // Step size on the X axis
     parameter [9:0] Ball_Y_Step=1;      // Step size on the Y axis
 
+    logic up, down, left, right;
+    assign paddleLen = PaddleS*10'd20;
+    assign paddleWidth = PaddleS*10'd5;
+    
     assign BallS = 16;  // default ball size
    
     always_ff @ (posedge frame_clk or posedge Reset) //make sure the frame clock is instantiated correctly
     begin: Move_Ball
         if (Reset)  // asynchronous Reset
         begin 
-            Ball_Y_Motion <= 10'd0; //Ball_Y_Step;
-			Ball_X_Motion <= 10'd0; //Ball_X_Step;
+            Ball_Y_Motion <= 10'd1; //Ball_Y_Step;
+			Ball_X_Motion <= 10'd1; //Ball_X_Step;
 			BallY <= Ball_Y_Center;
 			BallX <= Ball_X_Center;
         end
-           
+        // bounds check
         else 
         begin 
 				 if ( (BallY + BallS) >= Ball_Y_Max )  // Ball is at the bottom edge, BOUNCE!
+				 begin
 					  Ball_Y_Motion <= (~ (Ball_Y_Step) + 1'b1);  // 2's complement.
-					  
+					  Ball_X_Motion <= Ball_X_Motion;
+//					  Ball_Y_Motion <= Ball_Y_Motion;
+				 end  
 				 else if ( (BallY - BallS) <= Ball_Y_Min )  // Ball is at the top edge, BOUNCE!
+				 begin
 					  Ball_Y_Motion <= Ball_Y_Step;
-					  
+					  Ball_X_Motion <= Ball_X_Motion;
+			     end
 				 else if ( (BallX + BallS) >= Ball_X_Max )  // Ball is at the Right edge, BOUNCE!
+				 begin
 					  Ball_X_Motion <= (~ (Ball_X_Step) + 1'b1);  // 2's complement.
-					  
+					  Ball_Y_Motion <= Ball_Y_Motion;
+			     end		  
 				 else if ( (BallX - BallS) <= Ball_X_Min )  // Ball is at the Left edge, BOUNCE!
+				 begin
 					  Ball_X_Motion <= Ball_X_Step;
-                 else if (keycode == 8'h1A) // w key pressed
-				    begin
-                         Ball_Y_Motion <= -10'd1;
-                         Ball_X_Motion <= 10'd0;
-                     end
-                 else if (keycode == 8'h04) // a key pressed
+					  Ball_Y_Motion <= Ball_Y_Motion;
+			     end
+                 else if(((BallY + BallS) == (PaddleY + paddleWidth)) && ((BallX + BallS) >= PaddleX - paddleLen) && ((BallX - BallS) <= (PaddleX + paddleLen)))
                  begin
-                         Ball_X_Motion <= -10'd1;
-                         Ball_Y_Motion <= 10'd0;
-                 end
-                 else if (keycode == 8'h16) // s key pressed
-                 begin
-                         Ball_Y_Motion <= 10'd1;
-                         Ball_X_Motion <= 10'd0;
-                 end
-                 else if (keycode == 8'h07) // d key pressed
-                 begin
-                         Ball_X_Motion <= 10'd1;
-                         Ball_Y_Motion <= 10'd0;
+                      Ball_Y_Motion <= (~ (Ball_Y_Step) + 1'b1);  
+					  Ball_X_Motion <= Ball_X_Motion;
                  end
                  else 
+                 begin
 					  Ball_Y_Motion <= Ball_Y_Motion;  // Ball is somewhere in the middle, don't bounce, just keep moving
+					  Ball_X_Motion <= Ball_X_Motion;
+				 end
 			
 				 BallY <= (BallY + Ball_Y_Motion);  // Update ball position
 				 BallX <= (BallX + Ball_X_Motion);

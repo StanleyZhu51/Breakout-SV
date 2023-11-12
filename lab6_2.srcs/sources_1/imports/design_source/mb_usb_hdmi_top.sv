@@ -158,7 +158,10 @@ module mb_usb_hdmi_top(
         .keycode(keycode0_gpio[7:0]),    //Notice: only one keycode connected to ball by default
         .BallX(ballxsig),
         .BallY(ballysig),
-        .BallS(ballsizesig)
+        .BallS(ballsizesig),
+        .PaddleX(paddleX),
+        .PaddleY(paddleY),
+        .PaddleS(paddleS)
     );
     
     paddle pad(

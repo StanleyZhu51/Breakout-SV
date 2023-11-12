@@ -1,6 +1,6 @@
-2023-11-07T20:10:18.689968200255-20:10:18 **** Build of project mb_usb_hdmi_top ****
-000-buildplatform.bat 64156 mb_usb_hdmi_top  
-000-XSDB Server Channel: tcfchan#35
+2023-11-11T22:19:46.412803200255-22:19:46 **** Build of project mb_usb_hdmi_top ****
+000-buildplatform.bat 50882 mb_usb_hdmi_top  
+000-XSDB Server Channel: tcfchan#10
 000-E:/Vitis/2022.2/gnu/microblaze/nt
 000-Building the BSP Library for domain  - standalone_microblaze_0 on processor microblaze_0
 000-make --no-print-directory seq_libs
@@ -145,5 +145,5 @@
 000-'Finished building libraries'
 000-
 00255-
-20:10:23 Build Finished (took 5s.110ms)
+22:19:50 Build Finished (took 4s.200ms)
 
