@@ -22,7 +22,7 @@
 
 module  paddle ( input logic Reset, frame_clk,
 			   input logic [7:0] keycode,
-               output logic [9:0]  PaddleX, PaddleY, PaddleS );
+               output logic [9:0]  PaddleX, PaddleY);
     
     logic [9:0] Paddle_X_Motion, Paddle_Y_Motion;
 	 
@@ -30,14 +30,13 @@ module  paddle ( input logic Reset, frame_clk,
     parameter [9:0] Paddle_Y_Center=430;  // Center position on the Y axis
     parameter [9:0] Paddle_X_Min=0;       // Leftmost point on the X axis
     parameter [9:0] Paddle_X_Max=639;     // Rightmost point on the X axis
-//    parameter [9:0] Ball_Y_Min=0;       // Topmost point on the Y axis
-//    parameter [9:0] Ball_Y_Max=479;     // Bottommost point on the Y axis
-    parameter [9:0] Paddle_X_Step=1;      // Step size on the X axis
-//    parameter [9:0] Ball_Y_Step=1;      // Step size on the Y axis
 
-    assign PaddleS = 1;  // default ball size
-    assign paddleLen = PaddleS*10'd20;
-    assign paddleWidth = PaddleS*10'd5;
+    parameter [9:0] Paddle_X_Step=1;      // Step size on the X axis
+
+    parameter [9:0] paddleLen=20;      // Step size on the Y axis
+    parameter [9:0] paddleWidth=5;      // Step size on the Y axis
+
+
     always_ff @ (posedge frame_clk or posedge Reset) //make sure the frame clock is instantiated correctly
     begin: Move_Paddle
         if (Reset)  // asynchronous Reset
@@ -50,42 +49,28 @@ module  paddle ( input logic Reset, frame_clk,
          
         else 
         begin 
-//				 if ( (BallY + BallS) >= Ball_Y_Max )  // Ball is at the bottom edge, BOUNCE!
-//					  Ball_Y_Motion <= (~ (Ball_Y_Step) + 1'b1);  // 2's complement.
-					  
-//				 else if ( (BallY - BallS) <= Ball_Y_Min )  // Ball is at the top edge, BOUNCE!
-//					  Ball_Y_Motion <= Ball_Y_Step;
-					  
-//				 else if ( (BallX + BallS) >= Ball_X_Max )  // Ball is at the Right edge, BOUNCE!
-//					  Ball_X_Motion <= (~ (Ball_X_Step) + 1'b1);  // 2's complement.
-					  
-//				 else if ( (BallX - BallS) <= Ball_X_Min )  // Ball is at the Left edge, BOUNCE!
-//					  Ball_X_Motion <= Ball_X_Step;
-
 // 0x50 = left
 // 0x4f = right
-                 if (PaddleX+10'd20 >= Paddle_X_Max) 
+                 if (PaddleX+paddleLen >= Paddle_X_Max) // right bound
 				 begin
-                         Paddle_X_Motion <= -10'd1;
+                         Paddle_X_Motion <= -10'd2;
                  end
-                 else if (PaddleX-10'd20 <= Paddle_X_Min) // 
+                 else if (PaddleX-paddleLen <= Paddle_X_Min) // left bound
 				 begin
-                         Paddle_X_Motion <= 10'd1;
+                         Paddle_X_Motion <= 10'd2;
                  end
                  else if (keycode == 8'h50) // left pressed
 				 begin
-                         Paddle_X_Motion <= -10'd1;
+                         Paddle_X_Motion <= -10'd2;
                  end
                  else if (keycode == 8'h4f) // right pressed
                  begin
-                         Paddle_X_Motion <= 10'd1;
+                         Paddle_X_Motion <= 10'd2;
                  end
   
                  else 
 					  Paddle_X_Motion <= 10'd0;  // no key, stop
-			
-//				 BallY <= (BallY + Ball_Y_Motion);  // Update Paddle position
-				 PaddleX <= (PaddleX + Paddle_X_Motion);
+				 PaddleX <= (PaddleX + Paddle_X_Motion); // Update Paddle position
 		end  
     end
       

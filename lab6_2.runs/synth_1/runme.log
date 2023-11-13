@@ -25,14 +25,10 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 7732
+INFO: [Synth 8-7075] Helper process launched with PID 3680
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [E:/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
-INFO: [Synth 8-11241] undeclared symbol 'paddleLen', assumed default net type 'wire' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/ball.sv:35]
-INFO: [Synth 8-11241] undeclared symbol 'paddleWidth', assumed default net type 'wire' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/ball.sv:36]
-INFO: [Synth 8-11241] undeclared symbol 'paddleLen', assumed default net type 'wire' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/paddle.sv:39]
-INFO: [Synth 8-11241] undeclared symbol 'paddleWidth', assumed default net type 'wire' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/paddle.sv:40]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1218.773 ; gain = 410.754
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1217.633 ; gain = 408.379
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'mb_usb_hdmi_top' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:24]
 INFO: [Synth 8-6157] synthesizing module 'HexDriver' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/hex.sv:1]
@@ -46,22 +42,22 @@ INFO: [Synth 8-6157] synthesizing module 'nibble_to_hex' [E:/ECE385/lab6_2.xpr/l
 INFO: [Synth 8-6155] done synthesizing module 'nibble_to_hex' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/hex.sv:11]
 INFO: [Synth 8-6155] done synthesizing module 'HexDriver' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/hex.sv:1]
 INFO: [Synth 8-6157] synthesizing module 'mb_block' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1228]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_uartlite_0_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_axi_uartlite_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_uartlite_0_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_axi_uartlite_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_clk_wiz_1_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_clk_wiz_1_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_clk_wiz_1_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_clk_wiz_1_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_3_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_3_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_3_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_3_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_4_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_4_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_4_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_4_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_0_1' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_0_1_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_0_1' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_0_1_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_mdm_1_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_mdm_1_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_mdm_1_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_mdm_1_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_microblaze_0_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_microblaze_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_microblaze_0_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_microblaze_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_microblaze_0_axi_intc_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_microblaze_0_axi_intc_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_microblaze_0_axi_intc_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_microblaze_0_axi_intc_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_uartlite_0_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_axi_uartlite_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_uartlite_0_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_axi_uartlite_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_clk_wiz_1_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_clk_wiz_1_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_3_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_3_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_3_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_3_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_4_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_4_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_4_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_4_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_0_1' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_0_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_0_1' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_0_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_mdm_1_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_mdm_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_mdm_1_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_mdm_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_microblaze_0_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_microblaze_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_microblaze_0_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_microblaze_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_microblaze_0_axi_intc_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_microblaze_0_axi_intc_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_microblaze_0_axi_intc_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_microblaze_0_axi_intc_0_stub.v:5]
 INFO: [Synth 8-6157] synthesizing module 'mb_block_microblaze_0_axi_periph_0' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1914]
 INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1TK4492' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:12]
 INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1TK4492' (0#1) [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:12]
@@ -83,8 +79,8 @@ INFO: [Synth 8-6157] synthesizing module 'm08_couplers_imp_1XO1QIY' [e:/ECE385/l
 INFO: [Synth 8-6155] done synthesizing module 'm08_couplers_imp_1XO1QIY' (0#1) [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1096]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_5YIJ0K' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3526]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_5YIJ0K' (0#1) [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3526]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_xbar_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_xbar_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_xbar_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_xbar_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_xbar_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_xbar_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_xbar_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_xbar_0_stub.v:5]
 WARNING: [Synth 8-689] width (15) of port connection 'm_axi_arprot' does not match port width (27) of module 'mb_block_xbar_0' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3253]
 WARNING: [Synth 8-689] width (15) of port connection 'm_axi_awprot' does not match port width (27) of module 'mb_block_xbar_0' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3257]
 INFO: [Synth 8-6155] done synthesizing module 'mb_block_microblaze_0_axi_periph_0' (0#1) [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1914]
@@ -112,39 +108,39 @@ WARNING: [Synth 8-7071] port 'M04_AXI_wstrb' of module 'mb_block_microblaze_0_ax
 WARNING: [Synth 8-7071] port 'M04_AXI_wvalid' of module 'mb_block_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1645]
 WARNING: [Synth 8-7023] instance 'microblaze_0_axi_periph' of module 'mb_block_microblaze_0_axi_periph_0' has 198 connections declared, but only 176 given [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1645]
 INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_G5BFEQ' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3292]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_dlmb_bram_if_cntlr_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_dlmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_dlmb_bram_if_cntlr_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_dlmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_dlmb_v10_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_dlmb_v10_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_dlmb_v10_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_dlmb_v10_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_dlmb_bram_if_cntlr_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_dlmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_dlmb_bram_if_cntlr_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_dlmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_dlmb_v10_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_dlmb_v10_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_dlmb_v10_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_dlmb_v10_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'mb_block_dlmb_v10_0' is unconnected for instance 'dlmb_v10' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3438]
 WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'mb_block_dlmb_v10_0' has 25 connections declared, but only 24 given [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3438]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_ilmb_bram_if_cntlr_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_ilmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_ilmb_bram_if_cntlr_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_ilmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_ilmb_v10_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_ilmb_v10_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_ilmb_v10_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_ilmb_v10_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_ilmb_bram_if_cntlr_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_ilmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_ilmb_bram_if_cntlr_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_ilmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_ilmb_v10_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_ilmb_v10_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_ilmb_v10_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_ilmb_v10_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'mb_block_ilmb_v10_0' is unconnected for instance 'ilmb_v10' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3484]
 WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'mb_block_ilmb_v10_0' has 25 connections declared, but only 24 given [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3484]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_lmb_bram_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_lmb_bram_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_lmb_bram_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_lmb_bram_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_lmb_bram_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_lmb_bram_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_lmb_bram_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_lmb_bram_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'rsta_busy' of module 'mb_block_lmb_bram_0' is unconnected for instance 'lmb_bram' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3509]
 WARNING: [Synth 8-7071] port 'rstb_busy' of module 'mb_block_lmb_bram_0' is unconnected for instance 'lmb_bram' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3509]
 WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'mb_block_lmb_bram_0' has 16 connections declared, but only 14 given [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3509]
 INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_G5BFEQ' (0#1) [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3292]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_rst_clk_wiz_1_100M_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_rst_clk_wiz_1_100M_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_rst_clk_wiz_1_100M_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_rst_clk_wiz_1_100M_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_rst_clk_wiz_1_100M_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_rst_clk_wiz_1_100M_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_rst_clk_wiz_1_100M_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_rst_clk_wiz_1_100M_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'mb_block_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1844]
 WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'mb_block_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1844]
 WARNING: [Synth 8-7023] instance 'rst_clk_wiz_1_100M' of module 'mb_block_rst_clk_wiz_1_100M_0' has 10 connections declared, but only 8 given [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1844]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_quad_spi_0_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_axi_quad_spi_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_quad_spi_0_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_axi_quad_spi_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_quad_spi_0_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_axi_quad_spi_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_quad_spi_0_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_axi_quad_spi_0_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'io0_t' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1853]
 WARNING: [Synth 8-7071] port 'io1_o' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1853]
 WARNING: [Synth 8-7071] port 'io1_t' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1853]
 WARNING: [Synth 8-7071] port 'sck_t' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1853]
 WARNING: [Synth 8-7071] port 'ss_t' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1853]
 WARNING: [Synth 8-7023] instance 'spi_usb' of module 'mb_block_axi_quad_spi_0_0' has 33 connections declared, but only 28 given [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1853]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_timer_0_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_axi_timer_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_timer_0_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/mb_block_axi_timer_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_timer_0_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_axi_timer_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_timer_0_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/mb_block_axi_timer_0_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'generateout0' of module 'mb_block_axi_timer_0_0' is unconnected for instance 'timer_usb_axi' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1882]
 WARNING: [Synth 8-7071] port 'generateout1' of module 'mb_block_axi_timer_0_0' is unconnected for instance 'timer_usb_axi' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1882]
 WARNING: [Synth 8-7071] port 'pwm0' of module 'mb_block_axi_timer_0_0' is unconnected for instance 'timer_usb_axi' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1882]
@@ -154,14 +150,14 @@ INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat' [e:/ECE385/l
 INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat' (0#1) [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
 INFO: [Synth 8-6155] done synthesizing module 'mb_block_xlconcat_0_0' (0#1) [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/ip/mb_block_xlconcat_0_0/synth/mb_block_xlconcat_0_0.v:53]
 INFO: [Synth 8-6155] done synthesizing module 'mb_block' (0#1) [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1228]
-INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/clk_wiz_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/clk_wiz_0_stub.v:5]
 INFO: [Synth 8-6157] synthesizing module 'vga_controller' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/VGA_controller.sv:26]
 INFO: [Synth 8-6155] done synthesizing module 'vga_controller' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/VGA_controller.sv:26]
 WARNING: [Synth 8-7071] port 'sync' of module 'vga_controller' is unconnected for instance 'vga' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:114]
 WARNING: [Synth 8-7023] instance 'vga' of module 'vga_controller' has 8 connections declared, but only 7 given [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:114]
-INFO: [Synth 8-6157] synthesizing module 'hdmi_tx_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/hdmi_tx_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'hdmi_tx_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-20708-DESKTOP-02DFB66/realtime/hdmi_tx_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_tx_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/hdmi_tx_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_tx_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-8832-DESKTOP-02DFB66/realtime/hdmi_tx_0_stub.v:5]
 INFO: [Synth 8-6157] synthesizing module 'ball' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/ball.sv:17]
 INFO: [Synth 8-6155] done synthesizing module 'ball' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/ball.sv:17]
 INFO: [Synth 8-6157] synthesizing module 'paddle' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/paddle.sv:23]
@@ -169,7 +165,18 @@ INFO: [Synth 8-6155] done synthesizing module 'paddle' (0#1) [E:/ECE385/lab6_2.x
 INFO: [Synth 8-6157] synthesizing module 'color_mapper' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/Color_Mapper.sv:17]
 INFO: [Synth 8-6155] done synthesizing module 'color_mapper' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/Color_Mapper.sv:17]
 INFO: [Synth 8-6155] done synthesizing module 'mb_usb_hdmi_top' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:24]
-WARNING: [Synth 8-6014] Unused sequential element Paddle_Y_Motion_reg was removed.  [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/paddle.sv:45]
+WARNING: [Synth 8-6014] Unused sequential element Paddle_Y_Motion_reg was removed.  [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/paddle.sv:44]
+WARNING: [Synth 8-3848] Net paddleS in module/entity mb_usb_hdmi_top does not have driver. [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:56]
+WARNING: [Synth 8-7129] Port PaddleS[9] in module color_mapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PaddleS[8] in module color_mapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PaddleS[7] in module color_mapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PaddleS[6] in module color_mapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PaddleS[5] in module color_mapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PaddleS[4] in module color_mapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PaddleS[3] in module color_mapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PaddleS[2] in module color_mapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PaddleS[1] in module color_mapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PaddleS[0] in module color_mapper is either unconnected or has no load
 WARNING: [Synth 8-7129] Port keycode[7] in module ball is either unconnected or has no load
 WARNING: [Synth 8-7129] Port keycode[6] in module ball is either unconnected or has no load
 WARNING: [Synth 8-7129] Port keycode[5] in module ball is either unconnected or has no load
@@ -178,15 +185,6 @@ WARNING: [Synth 8-7129] Port keycode[3] in module ball is either unconnected or 
 WARNING: [Synth 8-7129] Port keycode[2] in module ball is either unconnected or has no load
 WARNING: [Synth 8-7129] Port keycode[1] in module ball is either unconnected or has no load
 WARNING: [Synth 8-7129] Port keycode[0] in module ball is either unconnected or has no load
-WARNING: [Synth 8-7129] Port PaddleS[9] in module ball is either unconnected or has no load
-WARNING: [Synth 8-7129] Port PaddleS[8] in module ball is either unconnected or has no load
-WARNING: [Synth 8-7129] Port PaddleS[7] in module ball is either unconnected or has no load
-WARNING: [Synth 8-7129] Port PaddleS[6] in module ball is either unconnected or has no load
-WARNING: [Synth 8-7129] Port PaddleS[5] in module ball is either unconnected or has no load
-WARNING: [Synth 8-7129] Port PaddleS[4] in module ball is either unconnected or has no load
-WARNING: [Synth 8-7129] Port PaddleS[3] in module ball is either unconnected or has no load
-WARNING: [Synth 8-7129] Port PaddleS[2] in module ball is either unconnected or has no load
-WARNING: [Synth 8-7129] Port PaddleS[1] in module ball is either unconnected or has no load
 WARNING: [Synth 8-7129] Port In4[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 WARNING: [Synth 8-7129] Port In5[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 WARNING: [Synth 8-7129] Port In6[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
@@ -269,21 +267,20 @@ WARNING: [Synth 8-7129] Port In82[0] in module xlconcat_v2_1_4_xlconcat is eithe
 WARNING: [Synth 8-7129] Port In83[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 WARNING: [Synth 8-7129] Port In84[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 WARNING: [Synth 8-7129] Port In85[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
-WARNING: [Synth 8-7129] Port In86[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1322.746 ; gain = 514.727
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1323.391 ; gain = 514.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1322.746 ; gain = 514.727
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1323.391 ; gain = 514.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1322.746 ; gain = 514.727
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1323.391 ; gain = 514.137
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 1322.746 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 1323.391 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -339,25 +336,25 @@ Parsing XDC File [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/dont_touch.xdc
 Finished Parsing XDC File [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1387.871 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1426.734 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1387.871 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1426.734 ; gain = 0.000
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'mb_block_i/spi_usb' at clock pin 'ext_spi_clk' is different from the actual clock period '10.000', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'mb_block_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [E:/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1388.648 ; gain = 580.629
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1426.734 ; gain = 617.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7s50csga324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1388.648 ; gain = 580.629
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1426.734 ; gain = 617.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -403,21 +400,21 @@ Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/xlconcat_0. (constrain
 Applied set_property KEEP_HIERARCHY = SOFT for vga_to_hdmi. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for clk_wiz. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1388.648 ; gain = 580.629
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1426.734 ; gain = 617.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1388.648 ; gain = 580.629
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1426.734 ; gain = 617.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   3 Input   33 Bit       Adders := 2     
 	   3 Input   32 Bit       Adders := 2     
 	   2 Input   32 Bit       Adders := 1     
 	   2 Input   11 Bit       Adders := 2     
-	   2 Input   10 Bit       Adders := 12    
+	   3 Input   11 Bit       Adders := 2     
+	   2 Input   10 Bit       Adders := 18    
 +---Registers : 
 	               10 Bit    Registers := 9     
 	                1 Bit    Registers := 2     
@@ -429,7 +426,9 @@ Detailed RTL Component Info :
 	   4 Input    8 Bit        Muxes := 2     
 	   2 Input    8 Bit        Muxes := 2     
 	   5 Input    4 Bit        Muxes := 2     
-	   2 Input    4 Bit        Muxes := 4     
+	   2 Input    4 Bit        Muxes := 1     
+	   3 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
 	   2 Input    1 Bit        Muxes := 3     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -474,7 +473,7 @@ DSP Report: operator color_instance/Red3 is absorbed into DSP color_instance/Red
 WARNING: [Synth 8-3917] design mb_usb_hdmi_top has port hex_segA[7] driven by constant 1
 WARNING: [Synth 8-3917] design mb_usb_hdmi_top has port hex_segB[7] driven by constant 1
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1388.648 ; gain = 580.629
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1426.734 ; gain = 617.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -503,19 +502,19 @@ Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-565] redefining clock 'Clk'
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1388.648 ; gain = 580.629
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1426.734 ; gain = 617.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1389.621 ; gain = 581.602
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1426.734 ; gain = 617.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1389.621 ; gain = 581.602
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1426.734 ; gain = 617.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -533,37 +532,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1389.621 ; gain = 581.602
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1426.734 ; gain = 617.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1389.621 ; gain = 581.602
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1426.734 ; gain = 617.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1389.621 ; gain = 581.602
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1426.734 ; gain = 617.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1389.621 ; gain = 581.602
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1426.734 ; gain = 617.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1389.621 ; gain = 581.602
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1426.734 ; gain = 617.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1389.621 ; gain = 581.602
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1426.734 ; gain = 617.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -631,43 +630,43 @@ Report Cell Usage:
 |18    |mb_block_rst_clk_wiz_1_100M    |     1|
 |19    |mb_block_xbar                  |     1|
 |20    |BUFG                           |     1|
-|21    |CARRY4                         |    56|
+|21    |CARRY4                         |    54|
 |22    |DSP48E1                        |     6|
-|23    |LUT1                           |    19|
-|24    |LUT2                           |   148|
-|25    |LUT3                           |    42|
-|26    |LUT4                           |    36|
-|27    |LUT5                           |    41|
-|28    |LUT6                           |    67|
-|29    |FDCE                           |    48|
+|23    |LUT1                           |    20|
+|24    |LUT2                           |   145|
+|25    |LUT3                           |    25|
+|26    |LUT4                           |    31|
+|27    |LUT5                           |    34|
+|28    |LUT6                           |    71|
+|29    |FDCE                           |    47|
 |30    |FDPE                           |     9|
 |31    |FDRE                           |    17|
 |32    |IBUF                           |     4|
 |33    |OBUF                           |    29|
 +------+-------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1389.621 ; gain = 581.602
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1426.734 ; gain = 617.480
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 24 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 1389.621 ; gain = 515.699
-Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1389.621 ; gain = 581.602
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1426.734 ; gain = 514.137
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1426.734 ; gain = 617.480
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 1400.152 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 62 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1426.734 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 60 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1402.715 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1426.734 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete, checksum: 8ab8439a
+Synth Design complete, checksum: a2be272c
 INFO: [Common 17-83] Releasing license: Synthesis
-120 Infos, 155 Warnings, 1 Critical Warnings and 0 Errors encountered.
+116 Infos, 156 Warnings, 1 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1402.715 ; gain = 969.879
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1426.734 ; gain = 993.227
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
 INFO: [Common 17-1381] The checkpoint 'E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/mb_usb_hdmi_top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file mb_usb_hdmi_top_utilization_synth.rpt -pb mb_usb_hdmi_top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Nov 11 22:17:07 2023...
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 13 11:20:15 2023...

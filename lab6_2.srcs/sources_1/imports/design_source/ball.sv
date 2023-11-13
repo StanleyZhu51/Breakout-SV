@@ -17,7 +17,7 @@
 module  ball ( input logic Reset, frame_clk,
 			   input logic [7:0] keycode,
 //			   input logic up, down, left, right,
-               input logic [9:0]  PaddleX, PaddleY, PaddleS,
+               input logic [9:0]  PaddleX, PaddleY, 
                output logic [9:0]  BallX, BallY, BallS );
     
     logic [9:0] Ball_X_Motion, Ball_Y_Motion;
@@ -30,12 +30,12 @@ module  ball ( input logic Reset, frame_clk,
     parameter [9:0] Ball_Y_Max=479;     // Bottommost point on the Y axis
     parameter [9:0] Ball_X_Step=1;      // Step size on the X axis
     parameter [9:0] Ball_Y_Step=1;      // Step size on the Y axis
+    parameter [9:0] paddleLen=20;      // Step size on the Y axis
+    parameter [9:0] paddleWidth=5;      // Step size on the Y axis
 
     logic up, down, left, right;
-    assign paddleLen = PaddleS*10'd20;
-    assign paddleWidth = PaddleS*10'd5;
     
-    assign BallS = 16;  // default ball size
+    assign BallS = 8;  // default ball size
    
     always_ff @ (posedge frame_clk or posedge Reset) //make sure the frame clock is instantiated correctly
     begin: Move_Ball
@@ -70,7 +70,8 @@ module  ball ( input logic Reset, frame_clk,
 					  Ball_X_Motion <= Ball_X_Step;
 					  Ball_Y_Motion <= Ball_Y_Motion;
 			     end
-                 else if(((BallY + BallS) == (PaddleY + paddleWidth)) && ((BallX + BallS) >= PaddleX - paddleLen) && ((BallX - BallS) <= (PaddleX + paddleLen)))
+                 else if(((BallY + BallS) == (PaddleY - paddleWidth)) && ((BallX + BallS) >= PaddleX - paddleLen) && ((BallX - BallS) <= (PaddleX + paddleLen)))
+//                 else if(((BallY + BallS) == (PaddleY - 10'd5)) && ((BallX + BallS) >= PaddleX - paddleLen) && ((BallX - BallS) <= (PaddleX + paddleLen)))
                  begin
                       Ball_Y_Motion <= (~ (Ball_Y_Step) + 1'b1);  
 					  Ball_X_Motion <= Ball_X_Motion;

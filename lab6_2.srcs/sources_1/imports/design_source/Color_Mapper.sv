@@ -19,7 +19,8 @@ module  color_mapper ( input  logic [9:0] BallX, BallY, DrawX, DrawY, Ball_size,
                        output logic [3:0]  Red, Green, Blue );
     
     logic ball_on, paddle_on;
-	 
+	parameter [9:0] paddleLen=20;      // Step size on the Y axis
+    parameter [9:0] paddleWidth=5;      // Step size on the Y axis
  /* Old Ball: Generated square box by checking if the current pixel is within a square of length
     2*BallS, centered at (BallX, BallY).  Note that this requires unsigned comparisons.
 	 
@@ -39,9 +40,9 @@ module  color_mapper ( input  logic [9:0] BallX, BallY, DrawX, DrawY, Ball_size,
     assign DistY = DrawY - BallY;
     assign Size = Ball_size;
     
-    int paddleLen, paddleWidth;
-    assign paddleLen = PaddleS*10'd20;
-    assign paddleWidth = PaddleS*10'd5;
+//    int paddleLen, paddleWidth;
+//    assign paddleLen = PaddleS*10'd20;
+//    assign paddleWidth = PaddleS*10'd5;
     always_comb
     begin:Paddle_on_proc
         if ((DrawX > PaddleX+paddleLen)||(DrawX < PaddleX-paddleLen)||(DrawY > PaddleY+paddleWidth)||(DrawY < PaddleY-paddleWidth))
@@ -61,19 +62,19 @@ module  color_mapper ( input  logic [9:0] BallX, BallY, DrawX, DrawY, Ball_size,
     always_comb
     begin:RGB_Display
         if ((ball_on == 1'b1)) begin 
-            Red = 4'hf;
-            Green = 4'h7;
-            Blue = 4'h0;
+            Red = 4'hc;
+            Green = 4'hc;
+            Blue = 4'hc;
         end   
         else if(paddle_on == 1'b1) begin
-            Red = 4'h0;
-            Green = 4'h0;
-            Blue = 4'ha;
+            Red = 4'h5;
+            Green = 4'h5;
+            Blue = 4'hf;
         end    
         else begin 
-            Red = 4'hf - DrawX[9:6]; 
-            Green = 4'hf - DrawX[9:6];
-            Blue = 4'hf - DrawX[9:6];
+            Red = 4'h2; 
+            Green = 4'h2;
+            Blue = 4'h2;
         end      
     end 
     

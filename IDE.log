@@ -675,3 +675,280 @@ con
 ----------------End of Script----------------
 
 22:20:04 INFO  : Disconnected from the channel tcfchan#11.
+10:47:13 DEBUG : Logs will be stored at 'E:/ECE385/lab6_2.xpr/lab6_2/IDE.log'.
+10:47:13 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\ECE385\lab6_2.xpr\lab6_2\temp_xsdb_launch_script.tcl
+10:47:16 INFO  : Platform repository initialization has completed.
+10:47:16 INFO  : Registering command handlers for Vitis TCF services
+10:47:16 INFO  : XSCT server has started successfully.
+10:47:16 INFO  : Successfully done setting XSCT server connection channel  
+10:47:18 INFO  : plnx-install-location is set to ''
+10:47:18 INFO  : Successfully done setting workspace for the tool. 
+10:47:18 INFO  : Successfully done query RDI_DATADIR 
+10:47:27 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+10:47:35 INFO  : Result from executing command 'removePlatformRepo': 
+10:47:41 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+10:47:41 INFO  : Result from executing command 'getPlatforms': 
+10:47:41 INFO  : Checking for BSP changes to sync application flags for project 'final_project'...
+10:47:43 INFO  : The hardware specification used by project 'final_project' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+10:47:43 INFO  : The file 'E:\ECE385\lab6_2.xpr\lab6_2\final_project\_ide\bitstream\mb_usb_hdmi_top.bit' stored in project is removed.
+10:47:43 INFO  : The file 'E:\ECE385\lab6_2.xpr\lab6_2\final_project\_ide\bitstream\mb_usb_hdmi_top.mmi' stored in project is removed.
+10:47:43 INFO  : The updated bitstream files are copied from platform to folder 'E:\ECE385\lab6_2.xpr\lab6_2\final_project\_ide\bitstream' in project 'final_project'.
+10:48:07 INFO  : Result from executing command 'removePlatformRepo': 
+10:48:11 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+10:48:11 INFO  : Result from executing command 'getPlatforms': 
+10:48:11 INFO  : Checking for BSP changes to sync application flags for project 'final_project'...
+10:48:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:48:20 INFO  : Jtag cable 'RealDigital Boo 887429230155A' is selected.
+10:48:20 INFO  : 'jtag frequency' command is executed.
+10:48:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230155A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+10:48:22 INFO  : Device configured successfully with "E:/ECE385/lab6_2.xpr/lab6_2/final_project/_ide/bitstream/mb_usb_hdmi_top.bit"
+10:48:22 INFO  : Context for processor 'microblaze_0' is selected.
+10:48:22 INFO  : Hardware design and registers information is loaded from 'E:/ECE385/lab6_2.xpr/lab6_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+10:48:22 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:48:22 INFO  : Context for processor 'microblaze_0' is selected.
+10:48:22 INFO  : System reset is completed.
+10:48:25 INFO  : 'after 3000' command is executed.
+10:48:26 INFO  : Context for processor 'microblaze_0' is selected.
+10:48:26 INFO  : The application 'E:/ECE385/lab6_2.xpr/lab6_2/final_project/Debug/final_project.elf' is downloaded to processor 'microblaze_0'.
+10:48:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230155A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file E:/ECE385/lab6_2.xpr/lab6_2/final_project/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw E:/ECE385/lab6_2.xpr/lab6_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/ECE385/lab6_2.xpr/lab6_2/final_project/Debug/final_project.elf
+----------------End of Script----------------
+
+10:48:26 INFO  : Context for processor 'microblaze_0' is selected.
+10:48:26 INFO  : 'con' command is executed.
+10:48:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:48:26 INFO  : Disconnected from the channel tcfchan#5.
+10:55:43 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+10:55:50 INFO  : Result from executing command 'removePlatformRepo': 
+10:55:54 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+10:55:54 INFO  : Result from executing command 'getPlatforms': 
+10:55:54 INFO  : Checking for BSP changes to sync application flags for project 'final_project'...
+10:55:56 INFO  : The hardware specification used by project 'final_project' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+10:55:56 INFO  : The file 'E:\ECE385\lab6_2.xpr\lab6_2\final_project\_ide\bitstream\mb_usb_hdmi_top.bit' stored in project is removed.
+10:55:56 INFO  : The file 'E:\ECE385\lab6_2.xpr\lab6_2\final_project\_ide\bitstream\mb_usb_hdmi_top.mmi' stored in project is removed.
+10:55:57 INFO  : The updated bitstream files are copied from platform to folder 'E:\ECE385\lab6_2.xpr\lab6_2\final_project\_ide\bitstream' in project 'final_project'.
+10:56:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:56:09 INFO  : Jtag cable 'RealDigital Boo 887429230155A' is selected.
+10:56:09 INFO  : 'jtag frequency' command is executed.
+10:56:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230155A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+10:56:11 INFO  : Device configured successfully with "E:/ECE385/lab6_2.xpr/lab6_2/final_project/_ide/bitstream/mb_usb_hdmi_top.bit"
+10:56:11 INFO  : Context for processor 'microblaze_0' is selected.
+10:56:11 INFO  : Hardware design and registers information is loaded from 'E:/ECE385/lab6_2.xpr/lab6_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+10:56:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:56:11 INFO  : Context for processor 'microblaze_0' is selected.
+10:56:11 INFO  : System reset is completed.
+10:56:14 INFO  : 'after 3000' command is executed.
+10:56:14 INFO  : Context for processor 'microblaze_0' is selected.
+10:56:15 INFO  : The application 'E:/ECE385/lab6_2.xpr/lab6_2/final_project/Debug/final_project.elf' is downloaded to processor 'microblaze_0'.
+10:56:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230155A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file E:/ECE385/lab6_2.xpr/lab6_2/final_project/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw E:/ECE385/lab6_2.xpr/lab6_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/ECE385/lab6_2.xpr/lab6_2/final_project/Debug/final_project.elf
+----------------End of Script----------------
+
+10:56:15 INFO  : Context for processor 'microblaze_0' is selected.
+10:56:15 INFO  : 'con' command is executed.
+10:56:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:56:15 INFO  : Disconnected from the channel tcfchan#8.
+11:02:48 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+11:02:54 INFO  : Result from executing command 'removePlatformRepo': 
+11:03:00 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+11:03:00 INFO  : Result from executing command 'getPlatforms': 
+11:03:00 INFO  : Checking for BSP changes to sync application flags for project 'final_project'...
+11:03:01 INFO  : The hardware specification used by project 'final_project' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+11:03:01 INFO  : The file 'E:\ECE385\lab6_2.xpr\lab6_2\final_project\_ide\bitstream\mb_usb_hdmi_top.bit' stored in project is removed.
+11:03:01 INFO  : The file 'E:\ECE385\lab6_2.xpr\lab6_2\final_project\_ide\bitstream\mb_usb_hdmi_top.mmi' stored in project is removed.
+11:03:01 INFO  : The updated bitstream files are copied from platform to folder 'E:\ECE385\lab6_2.xpr\lab6_2\final_project\_ide\bitstream' in project 'final_project'.
+11:03:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:03:08 INFO  : Jtag cable 'RealDigital Boo 887429230155A' is selected.
+11:03:08 INFO  : 'jtag frequency' command is executed.
+11:03:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230155A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:03:10 INFO  : Device configured successfully with "E:/ECE385/lab6_2.xpr/lab6_2/final_project/_ide/bitstream/mb_usb_hdmi_top.bit"
+11:03:10 INFO  : Context for processor 'microblaze_0' is selected.
+11:03:10 INFO  : Hardware design and registers information is loaded from 'E:/ECE385/lab6_2.xpr/lab6_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+11:03:10 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:03:10 INFO  : Context for processor 'microblaze_0' is selected.
+11:03:10 INFO  : System reset is completed.
+11:03:13 INFO  : 'after 3000' command is executed.
+11:03:14 INFO  : Context for processor 'microblaze_0' is selected.
+11:03:14 INFO  : The application 'E:/ECE385/lab6_2.xpr/lab6_2/final_project/Debug/final_project.elf' is downloaded to processor 'microblaze_0'.
+11:03:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230155A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file E:/ECE385/lab6_2.xpr/lab6_2/final_project/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw E:/ECE385/lab6_2.xpr/lab6_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/ECE385/lab6_2.xpr/lab6_2/final_project/Debug/final_project.elf
+----------------End of Script----------------
+
+11:03:14 INFO  : Context for processor 'microblaze_0' is selected.
+11:03:14 INFO  : 'con' command is executed.
+11:03:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:03:14 INFO  : Disconnected from the channel tcfchan#11.
+11:09:06 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+11:09:13 INFO  : Result from executing command 'removePlatformRepo': 
+11:09:17 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+11:09:17 INFO  : Result from executing command 'getPlatforms': 
+11:09:17 INFO  : Checking for BSP changes to sync application flags for project 'final_project'...
+11:09:19 INFO  : The hardware specification used by project 'final_project' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+11:09:19 INFO  : The file 'E:\ECE385\lab6_2.xpr\lab6_2\final_project\_ide\bitstream\mb_usb_hdmi_top.bit' stored in project is removed.
+11:09:19 INFO  : The file 'E:\ECE385\lab6_2.xpr\lab6_2\final_project\_ide\bitstream\mb_usb_hdmi_top.mmi' stored in project is removed.
+11:09:19 INFO  : The updated bitstream files are copied from platform to folder 'E:\ECE385\lab6_2.xpr\lab6_2\final_project\_ide\bitstream' in project 'final_project'.
+11:09:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:09:42 INFO  : Jtag cable 'RealDigital Boo 887429230155A' is selected.
+11:09:42 INFO  : 'jtag frequency' command is executed.
+11:09:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230155A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:09:44 INFO  : Device configured successfully with "E:/ECE385/lab6_2.xpr/lab6_2/final_project/_ide/bitstream/mb_usb_hdmi_top.bit"
+11:09:44 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:44 INFO  : Hardware design and registers information is loaded from 'E:/ECE385/lab6_2.xpr/lab6_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+11:09:44 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:09:44 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:44 INFO  : System reset is completed.
+11:09:47 INFO  : 'after 3000' command is executed.
+11:09:48 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:48 INFO  : The application 'E:/ECE385/lab6_2.xpr/lab6_2/final_project/Debug/final_project.elf' is downloaded to processor 'microblaze_0'.
+11:09:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230155A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file E:/ECE385/lab6_2.xpr/lab6_2/final_project/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw E:/ECE385/lab6_2.xpr/lab6_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/ECE385/lab6_2.xpr/lab6_2/final_project/Debug/final_project.elf
+----------------End of Script----------------
+
+11:09:48 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:48 INFO  : 'con' command is executed.
+11:09:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:09:48 INFO  : Disconnected from the channel tcfchan#14.
+11:14:22 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+11:14:29 INFO  : Result from executing command 'removePlatformRepo': 
+11:14:34 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+11:14:34 INFO  : Result from executing command 'getPlatforms': 
+11:14:34 INFO  : Checking for BSP changes to sync application flags for project 'final_project'...
+11:14:36 INFO  : The hardware specification used by project 'final_project' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+11:14:36 INFO  : The file 'E:\ECE385\lab6_2.xpr\lab6_2\final_project\_ide\bitstream\mb_usb_hdmi_top.bit' stored in project is removed.
+11:14:36 INFO  : The file 'E:\ECE385\lab6_2.xpr\lab6_2\final_project\_ide\bitstream\mb_usb_hdmi_top.mmi' stored in project is removed.
+11:14:36 INFO  : The updated bitstream files are copied from platform to folder 'E:\ECE385\lab6_2.xpr\lab6_2\final_project\_ide\bitstream' in project 'final_project'.
+11:14:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:14:52 INFO  : Jtag cable 'RealDigital Boo 887429230155A' is selected.
+11:14:52 INFO  : 'jtag frequency' command is executed.
+11:14:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230155A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:14:54 INFO  : Device configured successfully with "E:/ECE385/lab6_2.xpr/lab6_2/final_project/_ide/bitstream/mb_usb_hdmi_top.bit"
+11:14:54 INFO  : Context for processor 'microblaze_0' is selected.
+11:14:54 INFO  : Hardware design and registers information is loaded from 'E:/ECE385/lab6_2.xpr/lab6_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+11:14:54 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:14:54 INFO  : Context for processor 'microblaze_0' is selected.
+11:14:54 INFO  : System reset is completed.
+11:14:57 INFO  : 'after 3000' command is executed.
+11:14:58 INFO  : Context for processor 'microblaze_0' is selected.
+11:14:58 INFO  : The application 'E:/ECE385/lab6_2.xpr/lab6_2/final_project/Debug/final_project.elf' is downloaded to processor 'microblaze_0'.
+11:14:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230155A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file E:/ECE385/lab6_2.xpr/lab6_2/final_project/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw E:/ECE385/lab6_2.xpr/lab6_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/ECE385/lab6_2.xpr/lab6_2/final_project/Debug/final_project.elf
+----------------End of Script----------------
+
+11:14:58 INFO  : Context for processor 'microblaze_0' is selected.
+11:14:58 INFO  : 'con' command is executed.
+11:14:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:14:58 INFO  : Disconnected from the channel tcfchan#17.
+11:22:08 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+11:23:08 INFO  : Result from executing command 'removePlatformRepo': 
+11:23:13 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+11:23:13 INFO  : Result from executing command 'getPlatforms': 
+11:23:13 INFO  : Checking for BSP changes to sync application flags for project 'final_project'...
+11:23:15 INFO  : The hardware specification used by project 'final_project' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+11:23:15 INFO  : The file 'E:\ECE385\lab6_2.xpr\lab6_2\final_project\_ide\bitstream\mb_usb_hdmi_top.bit' stored in project is removed.
+11:23:15 INFO  : The file 'E:\ECE385\lab6_2.xpr\lab6_2\final_project\_ide\bitstream\mb_usb_hdmi_top.mmi' stored in project is removed.
+11:23:15 INFO  : The updated bitstream files are copied from platform to folder 'E:\ECE385\lab6_2.xpr\lab6_2\final_project\_ide\bitstream' in project 'final_project'.
+11:23:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:23:23 INFO  : Jtag cable 'RealDigital Boo 887429230155A' is selected.
+11:23:23 INFO  : 'jtag frequency' command is executed.
+11:23:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230155A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:23:25 INFO  : Device configured successfully with "E:/ECE385/lab6_2.xpr/lab6_2/final_project/_ide/bitstream/mb_usb_hdmi_top.bit"
+11:23:25 INFO  : Context for processor 'microblaze_0' is selected.
+11:23:25 INFO  : Hardware design and registers information is loaded from 'E:/ECE385/lab6_2.xpr/lab6_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+11:23:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:23:25 INFO  : Context for processor 'microblaze_0' is selected.
+11:23:25 INFO  : System reset is completed.
+11:23:28 INFO  : 'after 3000' command is executed.
+11:23:29 INFO  : Context for processor 'microblaze_0' is selected.
+11:23:29 INFO  : The application 'E:/ECE385/lab6_2.xpr/lab6_2/final_project/Debug/final_project.elf' is downloaded to processor 'microblaze_0'.
+11:23:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230155A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file E:/ECE385/lab6_2.xpr/lab6_2/final_project/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw E:/ECE385/lab6_2.xpr/lab6_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/ECE385/lab6_2.xpr/lab6_2/final_project/Debug/final_project.elf
+----------------End of Script----------------
+
+11:23:29 INFO  : Context for processor 'microblaze_0' is selected.
+11:23:29 INFO  : 'con' command is executed.
+11:23:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:23:29 INFO  : Disconnected from the channel tcfchan#20.

@@ -160,8 +160,7 @@ module mb_usb_hdmi_top(
         .BallY(ballysig),
         .BallS(ballsizesig),
         .PaddleX(paddleX),
-        .PaddleY(paddleY),
-        .PaddleS(paddleS)
+        .PaddleY(paddleY)
     );
     
     paddle pad(
@@ -169,8 +168,7 @@ module mb_usb_hdmi_top(
         .frame_clk(vsync),          //Figure out what this should be so that the ball will move
         .keycode(keycode0_gpio[7:0]),    //Notice: only one keycode connected to ball by default
         .PaddleX(paddleX),
-        .PaddleY(paddleY),
-        .PaddleS(paddleS)
+        .PaddleY(paddleY)
     );
     
     //Color Mapper Module   
