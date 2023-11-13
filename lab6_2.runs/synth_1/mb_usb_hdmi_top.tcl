@@ -93,6 +93,7 @@ read_verilog -library xil_defaultlib -sv {
   E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/Color_Mapper.sv
   E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/VGA_controller.sv
   E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/ball.sv
+  E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv
   E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/hex.sv
   E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/paddle.sv
   E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv

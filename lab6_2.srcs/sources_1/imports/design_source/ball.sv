@@ -16,7 +16,7 @@
 
 module  ball ( input logic Reset, frame_clk,
 			   input logic [7:0] keycode,
-//			   input logic up, down, left, right,
+			   input logic up, down, left, right,
                input logic [9:0]  PaddleX, PaddleY, 
                output logic [9:0]  BallX, BallY, BallS );
     
@@ -33,7 +33,7 @@ module  ball ( input logic Reset, frame_clk,
     parameter [9:0] paddleLen=20;      // Step size on the Y axis
     parameter [9:0] paddleWidth=5;      // Step size on the Y axis
 
-    logic up, down, left, right;
+
     
     assign BallS = 8;  // default ball size
    
@@ -75,6 +75,27 @@ module  ball ( input logic Reset, frame_clk,
                  begin
                       Ball_Y_Motion <= (~ (Ball_Y_Step) + 1'b1);  
 					  Ball_X_Motion <= Ball_X_Motion;
+                 end
+                 else if(up == 1'b1) // block up edge
+                 begin
+                      Ball_Y_Motion <= Ball_Y_Step;
+					  Ball_X_Motion <= Ball_X_Motion;
+					  
+                 end
+                 else if(down == 1'b1) // block down edge
+                 begin
+                      Ball_Y_Motion <= (~ (Ball_Y_Step) + 1'b1);  // 2's complement.
+					  Ball_X_Motion <= Ball_X_Motion;
+                 end
+                 else if(left == 1'b1) // block left edge
+                 begin
+                      Ball_X_Motion <= (~ (Ball_X_Step) + 1'b1);  // 2's complement.
+					  Ball_Y_Motion <= Ball_Y_Motion;
+                 end
+                 else if(right == 1'b1) // block right edge
+                 begin
+                      Ball_X_Motion <= Ball_X_Step;
+					  Ball_Y_Motion <= Ball_Y_Motion;
                  end
                  else 
                  begin

@@ -85,3 +85,12 @@ platform generate
 platform config -updatehw {E:/ECE385/lab6_2.xpr/lab6_2/mb_usb_hdmi_top.xsa}
 platform clean
 platform generate
+platform config -updatehw {E:/ECE385/lab6_2.xpr/lab6_2/mb_usb_hdmi_top.xsa}
+platform clean
+platform generate
+platform config -updatehw {E:/ECE385/lab6_2.xpr/lab6_2/mb_usb_hdmi_top.xsa}
+platform clean
+platform generate
+platform config -updatehw {E:/ECE385/lab6_2.xpr/lab6_2/mb_usb_hdmi_top.xsa}
+platform clean
+platform generate

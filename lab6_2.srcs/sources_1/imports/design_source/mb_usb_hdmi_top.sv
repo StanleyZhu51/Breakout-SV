@@ -59,6 +59,9 @@ module mb_usb_hdmi_top(
     logic [3:0] red, green, blue;
     logic reset_ah;
     
+    logic up, down, left, right, blockOn;
+    logic [9:0] blockX, blockY;
+    
     assign reset_ah = reset_rtl_0;
     
     
@@ -160,7 +163,8 @@ module mb_usb_hdmi_top(
         .BallY(ballysig),
         .BallS(ballsizesig),
         .PaddleX(paddleX),
-        .PaddleY(paddleY)
+        .PaddleY(paddleY),
+        .up(up), .down(down), .left(left), .right(right)
     );
     
     paddle pad(
@@ -171,11 +175,25 @@ module mb_usb_hdmi_top(
         .PaddleY(paddleY)
     );
     
+    
+    block blk( 
+        .Reset(reset_ah), 
+        .frame_clk(vsync),
+        .BallX(ballxsig), 
+        .BallY(ballysig), 
+        .BallS(ballsizesig),
+	    .blockOn(blockOn), 
+	    .up(up), 
+	    .down(down), 
+	    .left(left), 
+	    .right(right),
+        .blockX(blockX), 
+        .blockY(blockY)
+    );
     //Color Mapper Module   
     color_mapper color_instance(
         .PaddleX(paddleX),
         .PaddleY(paddleY),
-        .PaddleS(paddleS),
         .BallX(ballxsig),
         .BallY(ballysig),
         .DrawX(drawX),
@@ -183,7 +201,10 @@ module mb_usb_hdmi_top(
         .Ball_size(ballsizesig),
         .Red(red),
         .Green(green),
-        .Blue(blue)
+        .Blue(blue),
+        .blockX(blockX),
+        .blockY(blockY),
+        .blockOn(blockOn)
     );
     
 endmodule

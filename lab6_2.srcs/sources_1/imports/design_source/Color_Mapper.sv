@@ -15,12 +15,17 @@
 
 
 module  color_mapper ( input  logic [9:0] BallX, BallY, DrawX, DrawY, Ball_size,
-                       input  logic [9:0] PaddleX, PaddleY, PaddleS,
+                       input  logic [9:0] PaddleX, PaddleY,
+                       input logic [9:0] blockX, blockY,
+                       input logic blockOn,
                        output logic [3:0]  Red, Green, Blue );
     
-    logic ball_on, paddle_on;
+    logic ball_on, paddle_on, block_on;
 	parameter [9:0] paddleLen=20;      // Step size on the Y axis
     parameter [9:0] paddleWidth=5;      // Step size on the Y axis
+    
+    parameter [9:0] BlockLen=15;      // Step size on the Y axis
+    parameter [9:0] BlockWidth=7;      // Step size on the Y axis
  /* Old Ball: Generated square box by checking if the current pixel is within a square of length
     2*BallS, centered at (BallX, BallY).  Note that this requires unsigned comparisons.
 	 
@@ -58,6 +63,16 @@ module  color_mapper ( input  logic [9:0] BallX, BallY, DrawX, DrawY, Ball_size,
         else 
             ball_on = 1'b0;
      end 
+     
+    always_comb
+    begin:Block_on_proc
+        if ((DrawX > blockX+BlockLen)||(DrawX < blockX-BlockLen)||(DrawY > blockY+BlockWidth)||(DrawY < blockY-BlockWidth))
+            block_on = 1'b0;
+        else 
+        begin
+            block_on = blockOn;
+        end
+     end
        
     always_comb
     begin:RGB_Display
@@ -70,7 +85,12 @@ module  color_mapper ( input  logic [9:0] BallX, BallY, DrawX, DrawY, Ball_size,
             Red = 4'h5;
             Green = 4'h5;
             Blue = 4'hf;
-        end    
+        end   
+        else if(block_on == 1'b1) begin
+            Red = 4'ha;
+            Green = 4'h0;
+            Blue = 4'h0;
+        end 
         else begin 
             Red = 4'h2; 
             Green = 4'h2;
