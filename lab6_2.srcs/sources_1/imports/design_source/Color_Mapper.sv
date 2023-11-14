@@ -16,13 +16,13 @@
 
 module  color_mapper ( input  logic [9:0] BallX, BallY, DrawX, DrawY, Ball_size,
                        input  logic [9:0] PaddleX, PaddleY,
-                       input logic [9:0] blockX [16], 
-                       input logic [9:0] blockY [16],
-                       input logic [15:0] blockOn_arr,
+                       input logic [9:0] blockX [64], 
+                       input logic [9:0] blockY [64],
+                       input logic [63:0] blockOn_arr,
                        output logic [3:0]  Red, Green, Blue );
     
     logic ball_on, paddle_on, block_on;
-    logic [15:0] blockOn_local;
+    logic [63:0] blockOn_local;
 	parameter [9:0] paddleLen=20;      // Step size on the Y axis
     parameter [9:0] paddleWidth=5;      // Step size on the Y axis
     
@@ -69,15 +69,16 @@ module  color_mapper ( input  logic [9:0] BallX, BallY, DrawX, DrawY, Ball_size,
      
     always_comb
     begin:Block_on_proc
-        for(int i = 0; i < 16; i++) begin
-            if ((DrawX > blockX[i]+BlockLen)||(DrawX < blockX[i]-BlockLen)||(DrawY > blockY[i]+BlockWidth)||(DrawY < blockY[i]-BlockWidth))
-                blockOn_local[i] = 1'b0;
-            else 
-            begin
-                blockOn_local[i] = blockOn_arr[i];
+        for(int j = 0; j < 4; j++) begin
+            for(int i = 0; i < 16; i++) begin
+                if ((DrawX > blockX[16*j+i]+BlockLen)||(DrawX < blockX[16*j+i]-BlockLen)||(DrawY > blockY[16*j+i]+BlockWidth)||(DrawY < blockY[16*j+i]-BlockWidth))
+                    blockOn_local[16*j+i] = 1'b0;
+                else 
+                begin
+                    blockOn_local[16*j+i] = blockOn_arr[16*j+i];
+                end
             end
         end
-        
      end 
 //    always_comb
 //    begin:Block_on_proc
@@ -101,10 +102,25 @@ module  color_mapper ( input  logic [9:0] BallX, BallY, DrawX, DrawY, Ball_size,
             Green = 4'h5;
             Blue = 4'hf;
         end  
-        else if(blockOn_local > 1'b0) begin
+        else if(blockOn_local[15:0] > 1'b0) begin
             Red = 4'ha;
             Green = 4'h0;
             Blue = 4'h0;
+        end 
+        else if(blockOn_local[31:16] > 1'b0) begin
+            Red = 4'hf;
+            Green = 4'h5;
+            Blue = 4'ha;
+        end 
+        else if(blockOn_local[47:32] > 1'b0) begin
+            Red = 4'h0;
+            Green = 4'ha;
+            Blue = 4'h0;
+        end 
+        else if(blockOn_local[63:48] > 1'b0) begin
+            Red = 4'hf;
+            Green = 4'hf;
+            Blue = 4'h5;
         end 
 //        else if(block_on == 1'b1) begin
 //            Red = 4'ha;

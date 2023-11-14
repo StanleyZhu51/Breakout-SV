@@ -25,15 +25,15 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 13700
+INFO: [Synth 8-7075] Helper process launched with PID 16420
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [E:/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1217.562 ; gain = 408.949
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1216.988 ; gain = 408.906
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'mb_usb_hdmi_top' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:24]
 INFO: [Synth 8-6157] synthesizing module 'block' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 	Parameter Block_X_Center bound to: 10'b0000010100 
-	Parameter Block_Y_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0000101000 
 	Parameter Block_X_Min bound to: 10'b0000000000 
 	Parameter Block_X_Max bound to: 10'b1001111111 
 	Parameter BlockLen bound to: 10'b0000010011 
@@ -41,7 +41,7 @@ INFO: [Synth 8-6157] synthesizing module 'block' [E:/ECE385/lab6_2.xpr/lab6_2/la
 INFO: [Synth 8-6155] done synthesizing module 'block' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'block__parameterized0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 	Parameter Block_X_Center bound to: 10'b0000111100 
-	Parameter Block_Y_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0000101000 
 	Parameter Block_X_Min bound to: 10'b0000000000 
 	Parameter Block_X_Max bound to: 10'b1001111111 
 	Parameter BlockLen bound to: 10'b0000010011 
@@ -49,7 +49,7 @@ INFO: [Synth 8-6157] synthesizing module 'block__parameterized0' [E:/ECE385/lab6
 INFO: [Synth 8-6155] done synthesizing module 'block__parameterized0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'block__parameterized1' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 	Parameter Block_X_Center bound to: 10'b0001100100 
-	Parameter Block_Y_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0000101000 
 	Parameter Block_X_Min bound to: 10'b0000000000 
 	Parameter Block_X_Max bound to: 10'b1001111111 
 	Parameter BlockLen bound to: 10'b0000010011 
@@ -57,7 +57,7 @@ INFO: [Synth 8-6157] synthesizing module 'block__parameterized1' [E:/ECE385/lab6
 INFO: [Synth 8-6155] done synthesizing module 'block__parameterized1' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'block__parameterized2' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 	Parameter Block_X_Center bound to: 10'b0010001100 
-	Parameter Block_Y_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0000101000 
 	Parameter Block_X_Min bound to: 10'b0000000000 
 	Parameter Block_X_Max bound to: 10'b1001111111 
 	Parameter BlockLen bound to: 10'b0000010011 
@@ -65,7 +65,7 @@ INFO: [Synth 8-6157] synthesizing module 'block__parameterized2' [E:/ECE385/lab6
 INFO: [Synth 8-6155] done synthesizing module 'block__parameterized2' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'block__parameterized3' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 	Parameter Block_X_Center bound to: 10'b0010110100 
-	Parameter Block_Y_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0000101000 
 	Parameter Block_X_Min bound to: 10'b0000000000 
 	Parameter Block_X_Max bound to: 10'b1001111111 
 	Parameter BlockLen bound to: 10'b0000010011 
@@ -73,7 +73,7 @@ INFO: [Synth 8-6157] synthesizing module 'block__parameterized3' [E:/ECE385/lab6
 INFO: [Synth 8-6155] done synthesizing module 'block__parameterized3' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'block__parameterized4' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 	Parameter Block_X_Center bound to: 10'b0011011100 
-	Parameter Block_Y_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0000101000 
 	Parameter Block_X_Min bound to: 10'b0000000000 
 	Parameter Block_X_Max bound to: 10'b1001111111 
 	Parameter BlockLen bound to: 10'b0000010011 
@@ -81,7 +81,7 @@ INFO: [Synth 8-6157] synthesizing module 'block__parameterized4' [E:/ECE385/lab6
 INFO: [Synth 8-6155] done synthesizing module 'block__parameterized4' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'block__parameterized5' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 	Parameter Block_X_Center bound to: 10'b0100000100 
-	Parameter Block_Y_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0000101000 
 	Parameter Block_X_Min bound to: 10'b0000000000 
 	Parameter Block_X_Max bound to: 10'b1001111111 
 	Parameter BlockLen bound to: 10'b0000010011 
@@ -89,7 +89,7 @@ INFO: [Synth 8-6157] synthesizing module 'block__parameterized5' [E:/ECE385/lab6
 INFO: [Synth 8-6155] done synthesizing module 'block__parameterized5' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'block__parameterized6' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 	Parameter Block_X_Center bound to: 10'b0100101100 
-	Parameter Block_Y_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0000101000 
 	Parameter Block_X_Min bound to: 10'b0000000000 
 	Parameter Block_X_Max bound to: 10'b1001111111 
 	Parameter BlockLen bound to: 10'b0000010011 
@@ -97,7 +97,7 @@ INFO: [Synth 8-6157] synthesizing module 'block__parameterized6' [E:/ECE385/lab6
 INFO: [Synth 8-6155] done synthesizing module 'block__parameterized6' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'block__parameterized7' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 	Parameter Block_X_Center bound to: 10'b0101010100 
-	Parameter Block_Y_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0000101000 
 	Parameter Block_X_Min bound to: 10'b0000000000 
 	Parameter Block_X_Max bound to: 10'b1001111111 
 	Parameter BlockLen bound to: 10'b0000010011 
@@ -105,7 +105,7 @@ INFO: [Synth 8-6157] synthesizing module 'block__parameterized7' [E:/ECE385/lab6
 INFO: [Synth 8-6155] done synthesizing module 'block__parameterized7' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'block__parameterized8' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 	Parameter Block_X_Center bound to: 10'b0101111100 
-	Parameter Block_Y_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0000101000 
 	Parameter Block_X_Min bound to: 10'b0000000000 
 	Parameter Block_X_Max bound to: 10'b1001111111 
 	Parameter BlockLen bound to: 10'b0000010011 
@@ -113,7 +113,7 @@ INFO: [Synth 8-6157] synthesizing module 'block__parameterized8' [E:/ECE385/lab6
 INFO: [Synth 8-6155] done synthesizing module 'block__parameterized8' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'block__parameterized9' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 	Parameter Block_X_Center bound to: 10'b0110100100 
-	Parameter Block_Y_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0000101000 
 	Parameter Block_X_Min bound to: 10'b0000000000 
 	Parameter Block_X_Max bound to: 10'b1001111111 
 	Parameter BlockLen bound to: 10'b0000010011 
@@ -121,7 +121,7 @@ INFO: [Synth 8-6157] synthesizing module 'block__parameterized9' [E:/ECE385/lab6
 INFO: [Synth 8-6155] done synthesizing module 'block__parameterized9' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'block__parameterized10' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 	Parameter Block_X_Center bound to: 10'b0111001100 
-	Parameter Block_Y_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0000101000 
 	Parameter Block_X_Min bound to: 10'b0000000000 
 	Parameter Block_X_Max bound to: 10'b1001111111 
 	Parameter BlockLen bound to: 10'b0000010011 
@@ -129,7 +129,7 @@ INFO: [Synth 8-6157] synthesizing module 'block__parameterized10' [E:/ECE385/lab
 INFO: [Synth 8-6155] done synthesizing module 'block__parameterized10' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'block__parameterized11' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 	Parameter Block_X_Center bound to: 10'b0111110100 
-	Parameter Block_Y_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0000101000 
 	Parameter Block_X_Min bound to: 10'b0000000000 
 	Parameter Block_X_Max bound to: 10'b1001111111 
 	Parameter BlockLen bound to: 10'b0000010011 
@@ -137,7 +137,7 @@ INFO: [Synth 8-6157] synthesizing module 'block__parameterized11' [E:/ECE385/lab
 INFO: [Synth 8-6155] done synthesizing module 'block__parameterized11' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'block__parameterized12' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 	Parameter Block_X_Center bound to: 10'b1000011100 
-	Parameter Block_Y_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0000101000 
 	Parameter Block_X_Min bound to: 10'b0000000000 
 	Parameter Block_X_Max bound to: 10'b1001111111 
 	Parameter BlockLen bound to: 10'b0000010011 
@@ -145,7 +145,7 @@ INFO: [Synth 8-6157] synthesizing module 'block__parameterized12' [E:/ECE385/lab
 INFO: [Synth 8-6155] done synthesizing module 'block__parameterized12' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'block__parameterized13' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 	Parameter Block_X_Center bound to: 10'b1001000100 
-	Parameter Block_Y_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0000101000 
 	Parameter Block_X_Min bound to: 10'b0000000000 
 	Parameter Block_X_Max bound to: 10'b1001111111 
 	Parameter BlockLen bound to: 10'b0000010011 
@@ -153,12 +153,396 @@ INFO: [Synth 8-6157] synthesizing module 'block__parameterized13' [E:/ECE385/lab
 INFO: [Synth 8-6155] done synthesizing module 'block__parameterized13' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'block__parameterized14' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 	Parameter Block_X_Center bound to: 10'b1001101100 
-	Parameter Block_Y_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0000101000 
 	Parameter Block_X_Min bound to: 10'b0000000000 
 	Parameter Block_X_Max bound to: 10'b1001111111 
 	Parameter BlockLen bound to: 10'b0000010011 
 	Parameter BlockWidth bound to: 10'b0000001010 
 INFO: [Synth 8-6155] done synthesizing module 'block__parameterized14' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized15' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0000010100 
+	Parameter Block_Y_Center bound to: 10'b0000111110 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized15' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized16' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0000111100 
+	Parameter Block_Y_Center bound to: 10'b0000111110 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized16' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized17' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0000111110 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized17' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized18' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0010001100 
+	Parameter Block_Y_Center bound to: 10'b0000111110 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized18' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized19' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0010110100 
+	Parameter Block_Y_Center bound to: 10'b0000111110 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized19' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized20' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0011011100 
+	Parameter Block_Y_Center bound to: 10'b0000111110 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized20' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized21' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0100000100 
+	Parameter Block_Y_Center bound to: 10'b0000111110 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized21' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized22' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0100101100 
+	Parameter Block_Y_Center bound to: 10'b0000111110 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized22' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized23' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0101010100 
+	Parameter Block_Y_Center bound to: 10'b0000111110 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized23' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized24' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0101111100 
+	Parameter Block_Y_Center bound to: 10'b0000111110 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized24' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized25' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0110100100 
+	Parameter Block_Y_Center bound to: 10'b0000111110 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized25' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized26' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0111001100 
+	Parameter Block_Y_Center bound to: 10'b0000111110 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized26' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized27' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0111110100 
+	Parameter Block_Y_Center bound to: 10'b0000111110 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized27' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized28' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b1000011100 
+	Parameter Block_Y_Center bound to: 10'b0000111110 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized28' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized29' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b1001000100 
+	Parameter Block_Y_Center bound to: 10'b0000111110 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized29' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized30' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b1001101100 
+	Parameter Block_Y_Center bound to: 10'b0000111110 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized30' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized31' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0000010100 
+	Parameter Block_Y_Center bound to: 10'b0001010100 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized31' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized32' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0000111100 
+	Parameter Block_Y_Center bound to: 10'b0001010100 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized32' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized33' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0001010100 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized33' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized34' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0010001100 
+	Parameter Block_Y_Center bound to: 10'b0001010100 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized34' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized35' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0010110100 
+	Parameter Block_Y_Center bound to: 10'b0001010100 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized35' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized36' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0011011100 
+	Parameter Block_Y_Center bound to: 10'b0001010100 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized36' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized37' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0100000100 
+	Parameter Block_Y_Center bound to: 10'b0001010100 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized37' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized38' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0100101100 
+	Parameter Block_Y_Center bound to: 10'b0001010100 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized38' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized39' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0101010100 
+	Parameter Block_Y_Center bound to: 10'b0001010100 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized39' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized40' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0101111100 
+	Parameter Block_Y_Center bound to: 10'b0001010100 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized40' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized41' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0110100100 
+	Parameter Block_Y_Center bound to: 10'b0001010100 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized41' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized42' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0111001100 
+	Parameter Block_Y_Center bound to: 10'b0001010100 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized42' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized43' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0111110100 
+	Parameter Block_Y_Center bound to: 10'b0001010100 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized43' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized44' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b1000011100 
+	Parameter Block_Y_Center bound to: 10'b0001010100 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized44' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized45' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b1001000100 
+	Parameter Block_Y_Center bound to: 10'b0001010100 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized45' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized46' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b1001101100 
+	Parameter Block_Y_Center bound to: 10'b0001010100 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized46' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized47' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0000010100 
+	Parameter Block_Y_Center bound to: 10'b0001101010 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized47' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized48' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0000111100 
+	Parameter Block_Y_Center bound to: 10'b0001101010 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized48' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized49' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0001100100 
+	Parameter Block_Y_Center bound to: 10'b0001101010 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized49' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized50' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0010001100 
+	Parameter Block_Y_Center bound to: 10'b0001101010 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized50' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized51' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0010110100 
+	Parameter Block_Y_Center bound to: 10'b0001101010 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized51' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized52' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0011011100 
+	Parameter Block_Y_Center bound to: 10'b0001101010 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized52' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized53' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0100000100 
+	Parameter Block_Y_Center bound to: 10'b0001101010 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized53' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized54' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0100101100 
+	Parameter Block_Y_Center bound to: 10'b0001101010 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized54' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized55' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0101010100 
+	Parameter Block_Y_Center bound to: 10'b0001101010 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized55' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized56' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0101111100 
+	Parameter Block_Y_Center bound to: 10'b0001101010 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized56' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized57' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0110100100 
+	Parameter Block_Y_Center bound to: 10'b0001101010 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized57' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized58' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0111001100 
+	Parameter Block_Y_Center bound to: 10'b0001101010 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized58' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized59' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b0111110100 
+	Parameter Block_Y_Center bound to: 10'b0001101010 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized59' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized60' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b1000011100 
+	Parameter Block_Y_Center bound to: 10'b0001101010 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized60' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized61' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b1001000100 
+	Parameter Block_Y_Center bound to: 10'b0001101010 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized61' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'block__parameterized62' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
+	Parameter Block_X_Center bound to: 10'b1001101100 
+	Parameter Block_Y_Center bound to: 10'b0001101010 
+	Parameter Block_X_Min bound to: 10'b0000000000 
+	Parameter Block_X_Max bound to: 10'b1001111111 
+	Parameter BlockLen bound to: 10'b0000010011 
+	Parameter BlockWidth bound to: 10'b0000001010 
+INFO: [Synth 8-6155] done synthesizing module 'block__parameterized62' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'HexDriver' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/hex.sv:1]
 INFO: [Synth 8-6157] synthesizing module 'nibble_to_hex' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/hex.sv:11]
 INFO: [Synth 8-6155] done synthesizing module 'nibble_to_hex' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/hex.sv:11]
@@ -170,22 +554,22 @@ INFO: [Synth 8-6157] synthesizing module 'nibble_to_hex' [E:/ECE385/lab6_2.xpr/l
 INFO: [Synth 8-6155] done synthesizing module 'nibble_to_hex' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/hex.sv:11]
 INFO: [Synth 8-6155] done synthesizing module 'HexDriver' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/hex.sv:1]
 INFO: [Synth 8-6157] synthesizing module 'mb_block' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1228]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_uartlite_0_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_axi_uartlite_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_uartlite_0_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_axi_uartlite_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_clk_wiz_1_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_clk_wiz_1_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_clk_wiz_1_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_clk_wiz_1_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_3_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_3_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_3_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_3_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_4_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_4_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_4_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_4_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_0_1' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_0_1_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_0_1' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_0_1_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_mdm_1_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_mdm_1_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_mdm_1_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_mdm_1_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_microblaze_0_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_microblaze_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_microblaze_0_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_microblaze_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_microblaze_0_axi_intc_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_microblaze_0_axi_intc_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_microblaze_0_axi_intc_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_microblaze_0_axi_intc_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_uartlite_0_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_axi_uartlite_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_uartlite_0_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_axi_uartlite_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_clk_wiz_1_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_clk_wiz_1_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_3_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_3_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_3_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_3_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_4_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_4_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_4_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_4_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_gpio_0_1' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_0_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_gpio_0_1' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_0_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_mdm_1_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_mdm_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_mdm_1_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_mdm_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_microblaze_0_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_microblaze_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_microblaze_0_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_microblaze_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_microblaze_0_axi_intc_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_microblaze_0_axi_intc_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_microblaze_0_axi_intc_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_microblaze_0_axi_intc_0_stub.v:5]
 INFO: [Synth 8-6157] synthesizing module 'mb_block_microblaze_0_axi_periph_0' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1914]
 INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1TK4492' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:12]
 INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1TK4492' (0#1) [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:12]
@@ -207,8 +591,8 @@ INFO: [Synth 8-6157] synthesizing module 'm08_couplers_imp_1XO1QIY' [e:/ECE385/l
 INFO: [Synth 8-6155] done synthesizing module 'm08_couplers_imp_1XO1QIY' (0#1) [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1096]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_5YIJ0K' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3526]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_5YIJ0K' (0#1) [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3526]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_xbar_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_xbar_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_xbar_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_xbar_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_xbar_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_xbar_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_xbar_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_xbar_0_stub.v:5]
 WARNING: [Synth 8-689] width (15) of port connection 'm_axi_arprot' does not match port width (27) of module 'mb_block_xbar_0' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3253]
 WARNING: [Synth 8-689] width (15) of port connection 'm_axi_awprot' does not match port width (27) of module 'mb_block_xbar_0' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3257]
 INFO: [Synth 8-6155] done synthesizing module 'mb_block_microblaze_0_axi_periph_0' (0#1) [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1914]
@@ -236,65 +620,51 @@ WARNING: [Synth 8-7071] port 'M04_AXI_wstrb' of module 'mb_block_microblaze_0_ax
 WARNING: [Synth 8-7071] port 'M04_AXI_wvalid' of module 'mb_block_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1645]
 WARNING: [Synth 8-7023] instance 'microblaze_0_axi_periph' of module 'mb_block_microblaze_0_axi_periph_0' has 198 connections declared, but only 176 given [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1645]
 INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_G5BFEQ' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3292]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_dlmb_bram_if_cntlr_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_dlmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_dlmb_bram_if_cntlr_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_dlmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_dlmb_v10_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_dlmb_v10_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_dlmb_v10_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_dlmb_v10_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_dlmb_bram_if_cntlr_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_dlmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_dlmb_bram_if_cntlr_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_dlmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_dlmb_v10_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_dlmb_v10_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_dlmb_v10_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_dlmb_v10_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'mb_block_dlmb_v10_0' is unconnected for instance 'dlmb_v10' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3438]
 WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'mb_block_dlmb_v10_0' has 25 connections declared, but only 24 given [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3438]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_ilmb_bram_if_cntlr_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_ilmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_ilmb_bram_if_cntlr_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_ilmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_ilmb_v10_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_ilmb_v10_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_ilmb_v10_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_ilmb_v10_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_ilmb_bram_if_cntlr_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_ilmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_ilmb_bram_if_cntlr_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_ilmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_ilmb_v10_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_ilmb_v10_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_ilmb_v10_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_ilmb_v10_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'mb_block_ilmb_v10_0' is unconnected for instance 'ilmb_v10' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3484]
 WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'mb_block_ilmb_v10_0' has 25 connections declared, but only 24 given [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3484]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_lmb_bram_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_lmb_bram_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_lmb_bram_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_lmb_bram_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_lmb_bram_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_lmb_bram_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_lmb_bram_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_lmb_bram_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'rsta_busy' of module 'mb_block_lmb_bram_0' is unconnected for instance 'lmb_bram' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3509]
 WARNING: [Synth 8-7071] port 'rstb_busy' of module 'mb_block_lmb_bram_0' is unconnected for instance 'lmb_bram' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3509]
 WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'mb_block_lmb_bram_0' has 16 connections declared, but only 14 given [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3509]
 INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_G5BFEQ' (0#1) [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:3292]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_rst_clk_wiz_1_100M_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_rst_clk_wiz_1_100M_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_rst_clk_wiz_1_100M_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_rst_clk_wiz_1_100M_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_rst_clk_wiz_1_100M_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_rst_clk_wiz_1_100M_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_rst_clk_wiz_1_100M_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_rst_clk_wiz_1_100M_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'mb_block_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1844]
 WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'mb_block_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1844]
 WARNING: [Synth 8-7023] instance 'rst_clk_wiz_1_100M' of module 'mb_block_rst_clk_wiz_1_100M_0' has 10 connections declared, but only 8 given [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1844]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_quad_spi_0_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_axi_quad_spi_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_quad_spi_0_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_axi_quad_spi_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_quad_spi_0_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_axi_quad_spi_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_quad_spi_0_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_axi_quad_spi_0_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'io0_t' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1853]
 WARNING: [Synth 8-7071] port 'io1_o' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1853]
 WARNING: [Synth 8-7071] port 'io1_t' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1853]
 WARNING: [Synth 8-7071] port 'sck_t' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1853]
 WARNING: [Synth 8-7071] port 'ss_t' of module 'mb_block_axi_quad_spi_0_0' is unconnected for instance 'spi_usb' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1853]
 WARNING: [Synth 8-7023] instance 'spi_usb' of module 'mb_block_axi_quad_spi_0_0' has 33 connections declared, but only 28 given [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1853]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_timer_0_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_axi_timer_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_timer_0_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/mb_block_axi_timer_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_axi_timer_0_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_axi_timer_0_0_stub.v:5]
+INFO: [Common 17-14] Message 'Synth 8-6157' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_axi_timer_0_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-11704-DESKTOP-02DFB66/realtime/mb_block_axi_timer_0_0_stub.v:5]
 WARNING: [Synth 8-7071] port 'generateout0' of module 'mb_block_axi_timer_0_0' is unconnected for instance 'timer_usb_axi' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1882]
 WARNING: [Synth 8-7071] port 'generateout1' of module 'mb_block_axi_timer_0_0' is unconnected for instance 'timer_usb_axi' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1882]
 WARNING: [Synth 8-7071] port 'pwm0' of module 'mb_block_axi_timer_0_0' is unconnected for instance 'timer_usb_axi' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1882]
 WARNING: [Synth 8-7023] instance 'timer_usb_axi' of module 'mb_block_axi_timer_0_0' has 26 connections declared, but only 23 given [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1882]
-INFO: [Synth 8-6157] synthesizing module 'mb_block_xlconcat_0_0' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/ip/mb_block_xlconcat_0_0/synth/mb_block_xlconcat_0_0.v:53]
-INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat' [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
 INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat' (0#1) [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
 INFO: [Synth 8-6155] done synthesizing module 'mb_block_xlconcat_0_0' (0#1) [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/ip/mb_block_xlconcat_0_0/synth/mb_block_xlconcat_0_0.v:53]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block' (0#1) [e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v:1228]
-INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/clk_wiz_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/clk_wiz_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'vga_controller' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/VGA_controller.sv:26]
-INFO: [Synth 8-6155] done synthesizing module 'vga_controller' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/VGA_controller.sv:26]
-WARNING: [Synth 8-7071] port 'sync' of module 'vga_controller' is unconnected for instance 'vga' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:121]
-WARNING: [Synth 8-7023] instance 'vga' of module 'vga_controller' has 8 connections declared, but only 7 given [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:121]
-INFO: [Synth 8-6157] synthesizing module 'hdmi_tx_0' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/hdmi_tx_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'hdmi_tx_0' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-10468-DESKTOP-02DFB66/realtime/hdmi_tx_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'ball' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/ball.sv:17]
-INFO: [Synth 8-6155] done synthesizing module 'ball' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/ball.sv:17]
-INFO: [Synth 8-6157] synthesizing module 'paddle' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/paddle.sv:23]
-INFO: [Synth 8-6155] done synthesizing module 'paddle' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/paddle.sv:23]
-INFO: [Synth 8-6157] synthesizing module 'color_mapper' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/Color_Mapper.sv:17]
+INFO: [Common 17-14] Message 'Synth 8-6155' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-7071] port 'sync' of module 'vga_controller' is unconnected for instance 'vga' [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:120]
+WARNING: [Synth 8-7023] instance 'vga' of module 'vga_controller' has 8 connections declared, but only 7 given [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:120]
 	Parameter BlockLen bound to: 10'b0000010011 
 	Parameter BlockWidth bound to: 10'b0000001010 
-INFO: [Synth 8-6155] done synthesizing module 'color_mapper' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/Color_Mapper.sv:17]
-INFO: [Synth 8-6155] done synthesizing module 'mb_usb_hdmi_top' (0#1) [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv:24]
 WARNING: [Synth 8-6014] Unused sequential element Paddle_Y_Motion_reg was removed.  [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/paddle.sv:44]
 WARNING: [Synth 8-7129] Port In4[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 WARNING: [Synth 8-7129] Port In5[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
@@ -398,18 +768,18 @@ WARNING: [Synth 8-7129] Port In102[0] in module xlconcat_v2_1_4_xlconcat is eith
 WARNING: [Synth 8-7129] Port In103[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1340.945 ; gain = 532.332
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1396.234 ; gain = 588.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1340.945 ; gain = 532.332
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1396.234 ; gain = 588.152
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1340.945 ; gain = 532.332
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1396.234 ; gain = 588.152
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.075 . Memory (MB): peak = 1340.945 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.122 . Memory (MB): peak = 1396.234 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -465,341 +835,12 @@ Parsing XDC File [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/dont_touch.xdc
 Finished Parsing XDC File [E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1449.113 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1503.199 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1449.113 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1503.199 ; gain = 0.000
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'mb_block_i/spi_usb' at clock pin 'ext_spi_clk' is different from the actual clock period '10.000', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'mb_block_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
-INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [E:/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
----------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1449.113 ; gain = 640.500
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Loading Part and Timing Information
----------------------------------------------------------------------------------
-Loading part: xc7s50csga324-1
----------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1449.113 ; gain = 640.500
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Applying 'set_property' XDC Constraints
----------------------------------------------------------------------------------
-Applied set_property IO_BUFFER_TYPE = NONE for hdmi_tmds_clk_n. (constraint file  e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 1).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for hdmi_tmds_clk_n. (constraint file  e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 2).
-Applied set_property IO_BUFFER_TYPE = NONE for hdmi_tmds_clk_p. (constraint file  e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 3).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for hdmi_tmds_clk_p. (constraint file  e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 4).
-Applied set_property IO_BUFFER_TYPE = NONE for hdmi_tmds_data_n[0]. (constraint file  e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 5).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for hdmi_tmds_data_n[0]. (constraint file  e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 6).
-Applied set_property IO_BUFFER_TYPE = NONE for hdmi_tmds_data_n[1]. (constraint file  e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 7).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for hdmi_tmds_data_n[1]. (constraint file  e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 8).
-Applied set_property IO_BUFFER_TYPE = NONE for hdmi_tmds_data_n[2]. (constraint file  e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 9).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for hdmi_tmds_data_n[2]. (constraint file  e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 10).
-Applied set_property IO_BUFFER_TYPE = NONE for hdmi_tmds_data_p[0]. (constraint file  e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 11).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for hdmi_tmds_data_p[0]. (constraint file  e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 12).
-Applied set_property IO_BUFFER_TYPE = NONE for hdmi_tmds_data_p[1]. (constraint file  e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 13).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for hdmi_tmds_data_p[1]. (constraint file  e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 14).
-Applied set_property IO_BUFFER_TYPE = NONE for hdmi_tmds_data_p[2]. (constraint file  e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 15).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for hdmi_tmds_data_p[2]. (constraint file  e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc, line 16).
-Applied set_property IO_BUFFER_TYPE = NONE for Clk. (constraint file  e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for Clk. (constraint file  e:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/microblaze_0. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/microblaze_0_local_memory/dlmb_v10. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/microblaze_0_local_memory/ilmb_v10. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/microblaze_0_local_memory/dlmb_bram_if_cntlr. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/microblaze_0_local_memory/ilmb_bram_if_cntlr. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/microblaze_0_local_memory/lmb_bram. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/microblaze_0_axi_periph/xbar. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/microblaze_0_axi_periph. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/microblaze_0_axi_intc. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/mdm_1. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/clk_wiz_1. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/rst_clk_wiz_1_100M. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/axi_uartlite_0. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/gpio_usb_rst. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/gpio_usb_int. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/gpio_usb_keycode. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/timer_usb_axi. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/spi_usb. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for mb_block_i/xlconcat_0. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for vga_to_hdmi. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for clk_wiz. (constraint file  auto generated constraint).
----------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1449.113 ; gain = 640.500
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1449.113 ; gain = 640.500
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start RTL Component Statistics 
----------------------------------------------------------------------------------
-Detailed RTL Component Info : 
-+---Adders : 
-	   3 Input   32 Bit       Adders := 2     
-	   2 Input   32 Bit       Adders := 1     
-	   2 Input   11 Bit       Adders := 2     
-	   3 Input   11 Bit       Adders := 34    
-	   3 Input   10 Bit       Adders := 32    
-	   2 Input   10 Bit       Adders := 114   
-+---Registers : 
-	               10 Bit    Registers := 9     
-	                1 Bit    Registers := 82    
-+---Multipliers : 
-	              32x32  Multipliers := 2     
-+---Muxes : 
-	   2 Input   10 Bit        Muxes := 9     
-	   5 Input   10 Bit        Muxes := 1     
-	   4 Input    8 Bit        Muxes := 2     
-	   2 Input    8 Bit        Muxes := 2     
-	   5 Input    4 Bit        Muxes := 2     
-	   4 Input    4 Bit        Muxes := 1     
-	   2 Input    4 Bit        Muxes := 3     
-	   2 Input    3 Bit        Muxes := 1     
-	   2 Input    2 Bit        Muxes := 1     
-	   2 Input    1 Bit        Muxes := 169   
----------------------------------------------------------------------------------
-Finished RTL Component Statistics 
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Part Resource Summary
----------------------------------------------------------------------------------
-Part Resources:
-DSPs: 120 (col length:60)
-BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
----------------------------------------------------------------------------------
-Finished Part Resource Summary
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Cross Boundary and Area Optimization
----------------------------------------------------------------------------------
-WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
-DSP Report: Generating DSP Red2, operation Mode is: A*B.
-DSP Report: operator Red2 is absorbed into DSP Red2.
-DSP Report: Generating DSP Red3, operation Mode is: A*B.
-DSP Report: operator Red3 is absorbed into DSP Red3.
-DSP Report: operator Red3 is absorbed into DSP Red3.
-DSP Report: Generating DSP Red3, operation Mode is: (PCIN>>17)+A*B.
-DSP Report: operator Red3 is absorbed into DSP Red3.
-DSP Report: operator Red3 is absorbed into DSP Red3.
-DSP Report: Generating DSP Red3, operation Mode is: A*B.
-DSP Report: operator Red3 is absorbed into DSP Red3.
-DSP Report: operator Red3 is absorbed into DSP Red3.
-DSP Report: Generating DSP Red3, operation Mode is: (PCIN>>17)+A*B.
-DSP Report: operator Red3 is absorbed into DSP Red3.
-DSP Report: operator Red3 is absorbed into DSP Red3.
-DSP Report: Generating DSP Red3, operation Mode is: A*B.
-DSP Report: operator Red3 is absorbed into DSP Red3.
-DSP Report: operator Red3 is absorbed into DSP Red3.
-DSP Report: Generating DSP Red3, operation Mode is: (PCIN>>17)+A*B.
-DSP Report: operator Red3 is absorbed into DSP Red3.
-DSP Report: operator Red3 is absorbed into DSP Red3.
-DSP Report: Generating DSP Red3, operation Mode is: A*B.
-DSP Report: operator Red3 is absorbed into DSP Red3.
-DSP Report: operator Red3 is absorbed into DSP Red3.
-DSP Report: Generating DSP Red3, operation Mode is: (PCIN>>17)+A*B.
-DSP Report: operator Red3 is absorbed into DSP Red3.
-DSP Report: operator Red3 is absorbed into DSP Red3.
----------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1449.113 ; gain = 640.500
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start ROM, RAM, DSP, Shift Register and Retiming Reporting
----------------------------------------------------------------------------------
-
-DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
-+-------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-|Module Name  | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
-+-------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-|color_mapper | A*B            | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|color_mapper | A*B            | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|color_mapper | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|color_mapper | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|color_mapper | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|color_mapper | A*B            | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|color_mapper | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|color_mapper | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|color_mapper | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-+-------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-
-Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
----------------------------------------------------------------------------------
-Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Applying XDC Timing Constraints
----------------------------------------------------------------------------------
-WARNING: [Synth 8-565] redefining clock 'Clk'
----------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1449.113 ; gain = 640.500
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Timing Optimization
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1449.113 ; gain = 640.500
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Technology Mapping
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1449.113 ; gain = 640.500
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start IO Insertion
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Flattening Before IO Insertion
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Flattening Before IO Insertion
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Final Netlist Cleanup
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Final Netlist Cleanup
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1449.113 ; gain = 640.500
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Renaming Generated Instances
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1449.113 ; gain = 640.500
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Rebuilding User Hierarchy
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1449.113 ; gain = 640.500
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Renaming Generated Ports
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1449.113 ; gain = 640.500
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Handling Custom Attributes
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1449.113 ; gain = 640.500
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Renaming Generated Nets
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1449.113 ; gain = 640.500
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Writing Synthesis Report
----------------------------------------------------------------------------------
-
-DSP Final Report (the ' indicates corresponding REG is set)
-+-------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-|Module Name  | DSP Mapping  | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
-+-------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-|color_mapper | A*B          | 4      | 4      | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|color_mapper | A*B          | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|color_mapper | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|color_mapper | PCIN>>17+A*B | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|color_mapper | A*B          | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|color_mapper | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-|color_mapper | PCIN>>17+A*B | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
-+-------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-
-
-Report BlackBoxes: 
-+------+---------------------------------+----------+
-|      |BlackBox name                    |Instances |
-+------+---------------------------------+----------+
-|1     |mb_block_xbar_0                  |         1|
-|2     |mb_block_axi_uartlite_0_0        |         1|
-|3     |mb_block_clk_wiz_1_0             |         1|
-|4     |mb_block_axi_gpio_3_0            |         1|
-|5     |mb_block_axi_gpio_4_0            |         1|
-|6     |mb_block_axi_gpio_0_1            |         1|
-|7     |mb_block_mdm_1_0                 |         1|
-|8     |mb_block_microblaze_0_0          |         1|
-|9     |mb_block_microblaze_0_axi_intc_0 |         1|
-|10    |mb_block_rst_clk_wiz_1_100M_0    |         1|
-|11    |mb_block_axi_quad_spi_0_0        |         1|
-|12    |mb_block_axi_timer_0_0           |         1|
-|13    |mb_block_dlmb_bram_if_cntlr_0    |         1|
-|14    |mb_block_dlmb_v10_0              |         1|
-|15    |mb_block_ilmb_bram_if_cntlr_0    |         1|
-|16    |mb_block_ilmb_v10_0              |         1|
-|17    |mb_block_lmb_bram_0              |         1|
-|18    |clk_wiz_0                        |         1|
-|19    |hdmi_tx_0                        |         1|
-+------+---------------------------------+----------+
-
-Report Cell Usage: 
-+------+-------------------------------+------+
-|      |Cell                           |Count |
-+------+-------------------------------+------+
-|1     |clk_wiz                        |     1|
-|2     |hdmi_tx                        |     1|
-|3     |mb_block_axi_gpio_0            |     1|
-|4     |mb_block_axi_gpio_3            |     1|
-|5     |mb_block_axi_gpio_4            |     1|
-|6     |mb_block_axi_quad_spi_0        |     1|
-|7     |mb_block_axi_timer_0           |     1|
-|8     |mb_block_axi_uartlite_0        |     1|
-|9     |mb_block_clk_wiz_1             |     1|
-|10    |mb_block_dlmb_bram_if_cntlr    |     1|
-|11    |mb_block_dlmb_v10              |     1|
-|12    |mb_block_ilmb_bram_if_cntlr    |     1|
-|13    |mb_block_ilmb_v10              |     1|
-|14    |mb_block_lmb_bram              |     1|
-|15    |mb_block_mdm_1                 |     1|
-|16    |mb_block_microblaze_0          |     1|
-|17    |mb_block_microblaze_0_axi_intc |     1|
-|18    |mb_block_rst_clk_wiz_1_100M    |     1|
-|19    |mb_block_xbar                  |     1|
-|20    |BUFG                           |     1|
-|21    |CARRY4                         |   209|
-|22    |DSP48E1                        |     7|
-|23    |LUT1                           |   198|
-|24    |LUT2                           |   455|
-|25    |LUT3                           |    37|
-|26    |LUT4                           |   112|
-|27    |LUT5                           |   104|
-|28    |LUT6                           |   241|
-|29    |FDCE                           |   113|
-|30    |FDPE                           |    24|
-|31    |FDRE                           |    34|
-|32    |IBUF                           |     4|
-|33    |OBUF                           |    29|
-+------+-------------------------------+------+
----------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1449.113 ; gain = 640.500
----------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 22 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 1449.113 ; gain = 532.332
-Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1449.113 ; gain = 640.500
-INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 1449.113 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 216 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Project 1-570] Preparing netlist for logic optimization
-INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
-INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1449.113 ; gain = 0.000
-INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
-
-Synth Design complete, checksum: 8230480b
-INFO: [Common 17-83] Releasing license: Synthesis
-148 Infos, 153 Warnings, 1 Critical Warnings and 0 Errors encountered.
-synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1449.113 ; gain = 1017.504
-INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
-INFO: [Common 17-1381] The checkpoint 'E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/mb_usb_hdmi_top.dcp' has been generated.
-INFO: [runtcl-4] Executing : report_utilization -file mb_usb_hdmi_top_utilization_synth.rpt -pb mb_usb_hdmi_top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Nov 13 19:59:11 2023...

@@ -59,12 +59,11 @@ module mb_usb_hdmi_top(
     logic [3:0] red, green, blue;
     logic reset_ah;
     
-//    logic up, down, left, right, blockOn;
     logic [9:0] blockX, blockY;
     
-    logic [15:0] blockOn_arr, up, down, left, right;
-    logic [9:0] blockX_arr [16];
-    logic [9:0] blockY_arr [16];
+    logic [63:0] blockOn_arr, up, down, left, right;
+    logic [9:0] blockX_arr [64];
+    logic [9:0] blockY_arr [64];
     
     assign reset_ah = reset_rtl_0;
     
@@ -179,33 +178,39 @@ module mb_usb_hdmi_top(
         .PaddleY(paddleY)
     );
     
-    
+    // red row
     genvar i;
+    genvar j;
     generate
-        for(i = 0; i < 16; i++)begin 
-            block #(
-                .Block_X_Center(i*10'd40+10'd20),     // Change the center position on the X axis
-                .Block_Y_Center(100),     
-                .Block_X_Min(0),
-                .Block_X_Max(639),
-                .BlockLen(19),            
-                .BlockWidth(10)           
-            )blkgen(
-                .Reset(reset_ah), 
-                .frame_clk(vsync),
-                .BallX(ballxsig), 
-                .BallY(ballysig), 
-                .BallS(ballsizesig),
-                .blockOn(blockOn_arr[i]), 
-                .up(up[i]), 
-                .down(down[i]), 
-                .left(left[i]), 
-                .right(right[i]),
-                .blockX(blockX_arr[i]), 
-                .blockY(blockY_arr[i])
-            );
+        for(j = 0; j < 4; j++) begin
+            for(i = 0; i < 16; i++)begin 
+                block #(
+                    .Block_X_Center(i*10'd40+10'd20),     // Change the center position on the X axis
+                    .Block_Y_Center(j*10'd22+10'd40),     
+                    .Block_X_Min(0),
+                    .Block_X_Max(639),
+                    .BlockLen(19),            
+                    .BlockWidth(10)           
+                )blkgen(
+                    .Reset(reset_ah), 
+                    .frame_clk(vsync),
+                    .BallX(ballxsig), 
+                    .BallY(ballysig), 
+                    .BallS(ballsizesig),
+                    .blockOn(blockOn_arr[16*j+i]), 
+                    .up(up[16*j+i]), 
+                    .down(down[16*j+i]), 
+                    .left(left[16*j+i]), 
+                    .right(right[16*j+i]),
+                    .blockX(blockX_arr[16*j+i]), 
+                    .blockY(blockY_arr[16*j+i])
+                );
+            end
         end
+        
     endgenerate
+    
+   
     
 //    block blk( 
 //        .Reset(reset_ah), 

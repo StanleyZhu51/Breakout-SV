@@ -16,7 +16,7 @@
 
 module  ball ( input logic Reset, frame_clk,
 			   input logic [7:0] keycode,
-			   input logic [15:0] up, down, left, right,
+			   input logic [63:0] up, down, left, right,
                input logic [9:0]  PaddleX, PaddleY, 
                output logic [9:0]  BallX, BallY, BallS );
     

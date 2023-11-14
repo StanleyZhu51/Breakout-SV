@@ -1,0 +1,181 @@
+Data_For_RDAFlowver5.0
+	top levelÌ¯
+mb_usb_hdmi_topŒ
+LinkDesign_BlackboxesD
+-mb_block_i/microblaze_0_local_memory/lmb_brammb_block_lmb_bram_0D
+ mb_block_i/microblaze_0_axi_intc mb_block_microblaze_0_axi_intc_0,
+mb_block_i/clk_wiz_1mb_block_clk_wiz_1_06
+mb_block_i/axi_uartlite_0mb_block_axi_uartlite_0_0D
+-mb_block_i/microblaze_0_local_memory/dlmb_v10mb_block_dlmb_v10_0D
+-mb_block_i/microblaze_0_local_memory/ilmb_v10mb_block_ilmb_v10_04
+mb_block_i/gpio_usb_keycodemb_block_axi_gpio_4_0X
+7mb_block_i/microblaze_0_local_memory/ilmb_bram_if_cntlrmb_block_ilmb_bram_if_cntlr_0>
+mb_block_i/rst_clk_wiz_1_100Mmb_block_rst_clk_wiz_1_100M_0
+vga_to_hdmi	hdmi_tx_0:
+'mb_block_i/microblaze_0_axi_periph/xbarmb_block_xbar_00
+mb_block_i/gpio_usb_rstmb_block_axi_gpio_0_1X
+7mb_block_i/microblaze_0_local_memory/dlmb_bram_if_cntlrmb_block_dlmb_bram_if_cntlr_0$
+mb_block_i/mdm_1mb_block_mdm_1_0/
+mb_block_i/spi_usbmb_block_axi_quad_spi_0_00
+mb_block_i/gpio_usb_intmb_block_axi_gpio_3_02
+mb_block_i/timer_usb_aximb_block_axi_timer_0_0
+clk_wiz	clk_wiz_02
+mb_block_i/microblaze_0mb_block_microblaze_0_0¿2
+synthFileNamesC
+10=E:/Vivado/2022.2/data/vhdl/src/unimacro/BRAM_SINGLE_MACRO.vhd@
+11:E:/Vivado/2022.2/data/vhdl/src/unimacro/BRAM_TDP_MACRO.vhdD
+12>E:/Vivado/2022.2/data/vhdl/src/unimacro/COUNTER_LOAD_MACRO.vhdB
+13<E:/Vivado/2022.2/data/vhdl/src/unimacro/COUNTER_TC_MACRO.vhdB
+14<E:/Vivado/2022.2/data/vhdl/src/unimacro/EQ_COMPARE_MACRO.vhd?
+209E:/Vivado/2022.2/data/verilog/src/unimacro/ADDSUB_MACRO.vF
+15@E:/Vivado/2022.2/data/vhdl/src/unimacro/FIFO_DUALCLOCK_MACRO.vhdA
+21;E:/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SDP_MACRO.vA
+16;E:/Vivado/2022.2/data/vhdl/src/unimacro/FIFO_SYNC_MACRO.vhdD
+22>E:/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v<
+176E:/Vivado/2022.2/data/vhdl/src/unimacro/MACC_MACRO.vhd<
+186E:/Vivado/2022.2/data/vhdl/src/unimacro/MULT_MACRO.vhdA
+23;E:/Vivado/2022.2/data/verilog/src/unimacro/BRAM_TDP_MACRO.v@
+19:E:/Vivado/2022.2/data/verilog/src/unimacro/ADDMACC_MACRO.vE
+24?E:/Vivado/2022.2/data/verilog/src/unimacro/COUNTER_LOAD_MACRO.vC
+25=E:/Vivado/2022.2/data/verilog/src/unimacro/COUNTER_TC_MACRO.v=
+307E:/Vivado/2022.2/data/verilog/src/unimacro/MULT_MACRO.v
+NumFileNames76C
+26=E:/Vivado/2022.2/data/verilog/src/unimacro/EQ_COMPARE_MACRO.vC
+31=E:/Vivado/2022.2/data/vhdl/src/unisims/retarget/MULT18X18.vhd6
+11E:/Vivado/2022.2/scripts/rt/data/unisim_VCOMP.vhdG
+27AE:/Vivado/2022.2/data/verilog/src/unimacro/FIFO_DUALCLOCK_MACRO.vD
+32>E:/Vivado/2022.2/data/vhdl/src/unisims/retarget/MULT18X18S.vhd5
+20E:/Vivado/2022.2/scripts/rt/data/unisim_VPKG.vhdB
+28<E:/Vivado/2022.2/data/verilog/src/unimacro/FIFO_SYNC_MACRO.v9
+333E:/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv3
+3.E:/Vivado/2022.2/scripts/rt/data/unisim_comp.v=
+297E:/Vivado/2022.2/data/verilog/src/unimacro/MACC_MACRO.v;
+345E:/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv6
+41E:/Vivado/2022.2/scripts/rt/data/internal_cells.v?
+359E:/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.svT
+40NE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/hex.sv,
+5'E:/Vivado/2022.2/scripts/rt/data/BUFT.v]
+36WE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/Color_Mapper.svE
+41?E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/paddle.sv?
+6:E:/Vivado/2022.2/data/vhdl/src/unimacro/unimacro_VCOMP.vhd_
+37YE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/VGA_controller.sv`
+42ZE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/mb_usb_hdmi_top.sv>
+79E:/Vivado/2022.2/data/vhdl/src/unimacro/ADDMACC_MACRO.vhdU
+38OE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/imports/design_source/ball.sv
+43yE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/mb_block_microblaze_0_0_stub.v=
+88E:/Vivado/2022.2/data/vhdl/src/unimacro/ADDSUB_MACRO.vhdD
+39>E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.srcs/sources_1/new/block.sv{
+44uE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/mb_block_dlmb_v10_0_stub.vâ
+50ÇE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/mb_block_microblaze_0_axi_intc_0_stub.v?
+9:E:/Vivado/2022.2/data/vhdl/src/unimacro/BRAM_SDP_MACRO.vhd{
+45uE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/mb_block_ilmb_v10_0_stub.vx
+51rE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/mb_block_mdm_1_0_stub.vÖ
+46E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/mb_block_dlmb_bram_if_cntlr_0_stub.v|
+52vE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/mb_block_clk_wiz_1_0_stub.vÖ
+47E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/mb_block_ilmb_bram_if_cntlr_0_stub.vÖ
+53E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/mb_block_rst_clk_wiz_1_100M_0_stub.v{
+48uE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/mb_block_lmb_bram_0_stub.vÅ
+54{E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/mb_block_axi_uartlite_0_0_stub.vw
+49qE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/mb_block_xbar_0_stub.vq
+60kE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/hdmi_tx_0_stub.v}
+55wE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_0_1_stub.vq
+61kE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/clk_wiz_0_stub.v}
+56wE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_3_0_stub.vS
+62Me:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/synth/mb_block.v}
+57wE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/mb_block_axi_gpio_4_0_stub.vk
+63ee:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v~
+58xE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/mb_block_axi_timer_0_0_stub.vy
+64se:/ECE385/lab6_2.xpr/lab6_2/lab6_2.gen/sources_1/bd/mb_block/ip/mb_block_xlconcat_0_0/synth/mb_block_xlconcat_0_0.vÅ
+59{E:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/.Xil/Vivado-21496-DESKTOP-02DFB66/realtime/mb_block_axi_quad_spi_0_0_stub.vK
+70EE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/1993/src/timing_p.vhd0
+65*E:/Vivado/2022.2/data/ip/xpm/xpm_VCOMP.vhdK
+71EE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/1993/src/timing_b.vhdK
+66EE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/1993/src/std_1164.vhdK
+72EE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/1993/src/prmtvs_p.vhdK
+67EE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/1993/src/standard.vhdK
+73EE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/1993/src/prmtvs_b.vhdN
+68HE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/1993/src/numeric_std.vhdK
+74EE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/1993/src/syn_arit.vhdI
+69CE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/1993/src/textio.vhdK
+75EE:/ECE385/lab6_2.xpr/lab6_2/lab6_2.runs/synth_1/1993/src/syn_unsi.vhdû
+
+synthStatsG
+dspWideMultUnderpipelined
+L63
+Mnullname
+F36	
+ORed3G
+dspWideMultUnderpipelined
+L63
+Mnullname
+F36	
+ORed3ŒØ
+ElaboratedNamesForRQS≥Ø
+DSP_RAM'
+221209 {pad/Paddle_X_Motion2_i__0} 
+249879 {vga/vc_i__0} $
+458776 {ball_instance/BallY0_i} ,
+307224" {ball_instance/Ball_Y_Motion3_i} ç
+225306Ç {color_instance/paddle_on3_i__1} {color_instance/paddle_on4_i__1} {color_instance/paddle_on5_i} {color_instance/paddle_on5_i__0} ,
+266264" {ball_instance/Ball_Y_Motion2_i} $
+237593 {pad/Paddle_X_Motion2_i} /
+225282% {HexA/counter0_i} {HexB/counter0_i} 
+393239 {vga/vs3_i} 
+299033 {pad/PaddleX0_i} $
+188442 {color_instance/DistX_i} w
+327704m {ball_instance/Ball_Y_Motion3_i__2} {ball_instance/Ball_Y_Motion4_i__0} {ball_instance/Ball_Y_Motion4_i__1} $
+462872 {ball_instance/BallX0_i} ‘B
+241665…B {genblk1[0].genblk1[0].blkgen/blockOn3_i__1} {genblk1[0].genblk1[0].blkgen/blockOn4_i} {genblk1[0].genblk1[0].blkgen/blockOn4_i__1} {genblk1[0].genblk1[10].blkgen/blockOn3_i__1} {genblk1[0].genblk1[10].blkgen/blockOn4_i} {genblk1[0].genblk1[10].blkgen/blockOn4_i__1} {genblk1[0].genblk1[11].blkgen/blockOn3_i__1} {genblk1[0].genblk1[11].blkgen/blockOn4_i} {genblk1[0].genblk1[11].blkgen/blockOn4_i__1} {genblk1[0].genblk1[12].blkgen/blockOn3_i__1} {genblk1[0].genblk1[12].blkgen/blockOn4_i} {genblk1[0].genblk1[12].blkgen/blockOn4_i__1} {genblk1[0].genblk1[13].blkgen/blockOn3_i__1} {genblk1[0].genblk1[13].blkgen/blockOn4_i} {genblk1[0].genblk1[13].blkgen/blockOn4_i__1} {genblk1[0].genblk1[14].blkgen/blockOn3_i__1} {genblk1[0].genblk1[14].blkgen/blockOn4_i} {genblk1[0].genblk1[14].blkgen/blockOn4_i__1} {genblk1[0].genblk1[15].blkgen/blockOn3_i__1} {genblk1[0].genblk1[15].blkgen/blockOn4_i} {genblk1[0].genblk1[15].blkgen/blockOn4_i__1} {genblk1[0].genblk1[1].blkgen/blockOn3_i__1} {genblk1[0].genblk1[1].blkgen/blockOn4_i} {genblk1[0].genblk1[1].blkgen/blockOn4_i__1} {genblk1[0].genblk1[2].blkgen/blockOn3_i__1} {genblk1[0].genblk1[2].blkgen/blockOn4_i} {genblk1[0].genblk1[2].blkgen/blockOn4_i__1} {genblk1[0].genblk1[3].blkgen/blockOn3_i__1} {genblk1[0].genblk1[3].blkgen/blockOn4_i} {genblk1[0].genblk1[3].blkgen/blockOn4_i__1} {genblk1[0].genblk1[4].blkgen/blockOn3_i__1} {genblk1[0].genblk1[4].blkgen/blockOn4_i} {genblk1[0].genblk1[4].blkgen/blockOn4_i__1} {genblk1[0].genblk1[5].blkgen/blockOn3_i__1} {genblk1[0].genblk1[5].blkgen/blockOn4_i} {genblk1[0].genblk1[5].blkgen/blockOn4_i__1} {genblk1[0].genblk1[6].blkgen/blockOn3_i__1} {genblk1[0].genblk1[6].blkgen/blockOn4_i} {genblk1[0].genblk1[6].blkgen/blockOn4_i__1} {genblk1[0].genblk1[7].blkgen/blockOn3_i__1} {genblk1[0].genblk1[7].blkgen/blockOn4_i} {genblk1[0].genblk1[7].blkgen/blockOn4_i__1} {genblk1[0].genblk1[8].blkgen/blockOn3_i__1} {genblk1[0].genblk1[8].blkgen/blockOn4_i} {genblk1[0].genblk1[8].blkgen/blockOn4_i__1} {genblk1[0].genblk1[9].blkgen/blockOn3_i__1} {genblk1[0].genblk1[9].blkgen/blockOn4_i} {genblk1[0].genblk1[9].blkgen/blockOn4_i__1} {genblk1[1].genblk1[0].blkgen/blockOn3_i__1} {genblk1[1].genblk1[0].blkgen/blockOn4_i} {genblk1[1].genblk1[0].blkgen/blockOn4_i__1} {genblk1[1].genblk1[10].blkgen/blockOn3_i__1} {genblk1[1].genblk1[10].blkgen/blockOn4_i} {genblk1[1].genblk1[10].blkgen/blockOn4_i__1} {genblk1[1].genblk1[11].blkgen/blockOn3_i__1} {genblk1[1].genblk1[11].blkgen/blockOn4_i} {genblk1[1].genblk1[11].blkgen/blockOn4_i__1} {genblk1[1].genblk1[12].blkgen/blockOn3_i__1} {genblk1[1].genblk1[12].blkgen/blockOn4_i} {genblk1[1].genblk1[12].blkgen/blockOn4_i__1} {genblk1[1].genblk1[13].blkgen/blockOn3_i__1} {genblk1[1].genblk1[13].blkgen/blockOn4_i} {genblk1[1].genblk1[13].blkgen/blockOn4_i__1} {genblk1[1].genblk1[14].blkgen/blockOn3_i__1} {genblk1[1].genblk1[14].blkgen/blockOn4_i} {genblk1[1].genblk1[14].blkgen/blockOn4_i__1} {genblk1[1].genblk1[15].blkgen/blockOn3_i__1} {genblk1[1].genblk1[15].blkgen/blockOn4_i} {genblk1[1].genblk1[15].blkgen/blockOn4_i__1} {genblk1[1].genblk1[1].blkgen/blockOn3_i__1} {genblk1[1].genblk1[1].blkgen/blockOn4_i} {genblk1[1].genblk1[1].blkgen/blockOn4_i__1} {genblk1[1].genblk1[2].blkgen/blockOn3_i__1} {genblk1[1].genblk1[2].blkgen/blockOn4_i} {genblk1[1].genblk1[2].blkgen/blockOn4_i__1} {genblk1[1].genblk1[3].blkgen/blockOn3_i__1} {genblk1[1].genblk1[3].blkgen/blockOn4_i} {genblk1[1].genblk1[3].blkgen/blockOn4_i__1} {genblk1[1].genblk1[4].blkgen/blockOn3_i__1} {genblk1[1].genblk1[4].blkgen/blockOn4_i} {genblk1[1].genblk1[4].blkgen/blockOn4_i__1} {genblk1[1].genblk1[5].blkgen/blockOn3_i__1} {genblk1[1].genblk1[5].blkgen/blockOn4_i} {genblk1[1].genblk1[5].blkgen/blockOn4_i__1} {genblk1[1].genblk1[6].blkgen/blockOn3_i__1} {genblk1[1].genblk1[6].blkgen/blockOn4_i} {genblk1[1].genblk1[6].blkgen/blockOn4_i__1} {genblk1[1].genblk1[7].blkgen/blockOn3_i__1} {genblk1[1].genblk1[7].blkgen/blockOn4_i} {genblk1[1].genblk1[7].blkgen/blockOn4_i__1} {genblk1[1].genblk1[8].blkgen/blockOn3_i__1} {genblk1[1].genblk1[8].blkgen/blockOn4_i} {genblk1[1].genblk1[8].blkgen/blockOn4_i__1} {genblk1[1].genblk1[9].blkgen/blockOn3_i__1} {genblk1[1].genblk1[9].blkgen/blockOn4_i} {genblk1[1].genblk1[9].blkgen/blockOn4_i__1} {genblk1[2].genblk1[0].blkgen/blockOn3_i__1} {genblk1[2].genblk1[0].blkgen/blockOn4_i} {genblk1[2].genblk1[0].blkgen/blockOn4_i__1} {genblk1[2].genblk1[10].blkgen/blockOn3_i__1} {genblk1[2].genblk1[10].blkgen/blockOn4_i} {genblk1[2].genblk1[10].blkgen/blockOn4_i__1} {genblk1[2].genblk1[11].blkgen/blockOn3_i__1} {genblk1[2].genblk1[11].blkgen/blockOn4_i} {genblk1[2].genblk1[11].blkgen/blockOn4_i__1} {genblk1[2].genblk1[12].blkgen/blockOn3_i__1} {genblk1[2].genblk1[12].blkgen/blockOn4_i} {genblk1[2].genblk1[12].blkgen/blockOn4_i__1} {genblk1[2].genblk1[13].blkgen/blockOn3_i__1} {genblk1[2].genblk1[13].blkgen/blockOn4_i} {genblk1[2].genblk1[13].blkgen/blockOn4_i__1} {genblk1[2].genblk1[14].blkgen/blockOn3_i__1} {genblk1[2].genblk1[14].blkgen/blockOn4_i} {genblk1[2].genblk1[14].blkgen/blockOn4_i__1} {genblk1[2].genblk1[15].blkgen/blockOn3_i__1} {genblk1[2].genblk1[15].blkgen/blockOn4_i} {genblk1[2].genblk1[15].blkgen/blockOn4_i__1} {genblk1[2].genblk1[1].blkgen/blockOn3_i__1} {genblk1[2].genblk1[1].blkgen/blockOn4_i} {genblk1[2].genblk1[1].blkgen/blockOn4_i__1} {genblk1[2].genblk1[2].blkgen/blockOn3_i__1} {genblk1[2].genblk1[2].blkgen/blockOn4_i} {genblk1[2].genblk1[2].blkgen/blockOn4_i__1} {genblk1[2].genblk1[3].blkgen/blockOn3_i__1} {genblk1[2].genblk1[3].blkgen/blockOn4_i} {genblk1[2].genblk1[3].blkgen/blockOn4_i__1} {genblk1[2].genblk1[4].blkgen/blockOn3_i__1} {genblk1[2].genblk1[4].blkgen/blockOn4_i} {genblk1[2].genblk1[4].blkgen/blockOn4_i__1} {genblk1[2].genblk1[5].blkgen/blockOn3_i__1} {genblk1[2].genblk1[5].blkgen/blockOn4_i} {genblk1[2].genblk1[5].blkgen/blockOn4_i__1} {genblk1[2].genblk1[6].blkgen/blockOn3_i__1} {genblk1[2].genblk1[6].blkgen/blockOn4_i} {genblk1[2].genblk1[6].blkgen/blockOn4_i__1} {genblk1[2].genblk1[7].blkgen/blockOn3_i__1} {genblk1[2].genblk1[7].blkgen/blockOn4_i} {genblk1[2].genblk1[7].blkgen/blockOn4_i__1} {genblk1[2].genblk1[8].blkgen/blockOn3_i__1} {genblk1[2].genblk1[8].blkgen/blockOn4_i} {genblk1[2].genblk1[8].blkgen/blockOn4_i__1} {genblk1[2].genblk1[9].blkgen/blockOn3_i__1} {genblk1[2].genblk1[9].blkgen/blockOn4_i} {genblk1[2].genblk1[9].blkgen/blockOn4_i__1} {genblk1[3].genblk1[0].blkgen/blockOn3_i__1} {genblk1[3].genblk1[0].blkgen/blockOn4_i} {genblk1[3].genblk1[0].blkgen/blockOn4_i__1} {genblk1[3].genblk1[10].blkgen/blockOn3_i__1} {genblk1[3].genblk1[10].blkgen/blockOn4_i} {genblk1[3].genblk1[10].blkgen/blockOn4_i__1} {genblk1[3].genblk1[11].blkgen/blockOn3_i__1} {genblk1[3].genblk1[11].blkgen/blockOn4_i} {genblk1[3].genblk1[11].blkgen/blockOn4_i__1} {genblk1[3].genblk1[12].blkgen/blockOn3_i__1} {genblk1[3].genblk1[12].blkgen/blockOn4_i} {genblk1[3].genblk1[12].blkgen/blockOn4_i__1} {genblk1[3].genblk1[13].blkgen/blockOn3_i__1} {genblk1[3].genblk1[13].blkgen/blockOn4_i} {genblk1[3].genblk1[13].blkgen/blockOn4_i__1} {genblk1[3].genblk1[14].blkgen/blockOn3_i__1} {genblk1[3].genblk1[14].blkgen/blockOn4_i} {genblk1[3].genblk1[14].blkgen/blockOn4_i__1} {genblk1[3].genblk1[15].blkgen/blockOn3_i__1} {genblk1[3].genblk1[15].blkgen/blockOn4_i} {genblk1[3].genblk1[15].blkgen/blockOn4_i__1} {genblk1[3].genblk1[1].blkgen/blockOn3_i__1} {genblk1[3].genblk1[1].blkgen/blockOn4_i} {genblk1[3].genblk1[1].blkgen/blockOn4_i__1} {genblk1[3].genblk1[2].blkgen/blockOn3_i__1} {genblk1[3].genblk1[2].blkgen/blockOn4_i} {genblk1[3].genblk1[2].blkgen/blockOn4_i__1} {genblk1[3].genblk1[3].blkgen/blockOn3_i__1} {genblk1[3].genblk1[3].blkgen/blockOn4_i} {genblk1[3].genblk1[3].blkgen/blockOn4_i__1} {genblk1[3].genblk1[4].blkgen/blockOn3_i__1} {genblk1[3].genblk1[4].blkgen/blockOn4_i} {genblk1[3].genblk1[4].blkgen/blockOn4_i__1} {genblk1[3].genblk1[5].blkgen/blockOn3_i__1} {genblk1[3].genblk1[5].blkgen/blockOn4_i} {genblk1[3].genblk1[5].blkgen/blockOn4_i__1} {genblk1[3].genblk1[6].blkgen/blockOn3_i__1} {genblk1[3].genblk1[6].blkgen/blockOn4_i} {genblk1[3].genblk1[6].blkgen/blockOn4_i__1} {genblk1[3].genblk1[7].blkgen/blockOn3_i__1} {genblk1[3].genblk1[7].blkgen/blockOn4_i} {genblk1[3].genblk1[7].blkgen/blockOn4_i__1} {genblk1[3].genblk1[8].blkgen/blockOn3_i__1} {genblk1[3].genblk1[8].blkgen/blockOn4_i} {genblk1[3].genblk1[8].blkgen/blockOn4_i__1} {genblk1[3].genblk1[9].blkgen/blockOn3_i__1} {genblk1[3].genblk1[9].blkgen/blockOn4_i} {genblk1[3].genblk1[9].blkgen/blockOn4_i__1} 
+286743 {vga/hc0_i} 
+339991 {vga/hs3_i} ,
+286744" {ball_instance/Ball_Y_Motion4_i} #
+270361 {pad/Paddle_X_Motion_i} q
+258074g {color_instance/Red2_i} {color_instance/Red2_i__0} {color_instance/Red3_i} {color_instance/Red3_i__0} /
+241688% {ball_instance/Ball_Y_Motion2_i__0} 
+274455 {vga/vc0_i} Ñ
+65538{ {HexA/hex_i} {HexA/hex_i__0} {HexA/hex_i__1} {HexA/hex_i__2} {HexB/hex_i} {HexB/hex_i__0} {HexB/hex_i__1} {HexB/hex_i__2} $
+192538 {color_instance/DistY_i} ‰
+262145Ÿ {genblk1[0].genblk1[0].blkgen/blockOn4_i__0} {genblk1[0].genblk1[10].blkgen/blockOn4_i__0} {genblk1[0].genblk1[11].blkgen/blockOn4_i__0} {genblk1[0].genblk1[12].blkgen/blockOn4_i__0} {genblk1[0].genblk1[13].blkgen/blockOn4_i__0} {genblk1[0].genblk1[14].blkgen/blockOn4_i__0} {genblk1[0].genblk1[15].blkgen/blockOn4_i__0} {genblk1[0].genblk1[1].blkgen/blockOn4_i__0} {genblk1[0].genblk1[2].blkgen/blockOn4_i__0} {genblk1[0].genblk1[3].blkgen/blockOn4_i__0} {genblk1[0].genblk1[4].blkgen/blockOn4_i__0} {genblk1[0].genblk1[5].blkgen/blockOn4_i__0} {genblk1[0].genblk1[6].blkgen/blockOn4_i__0} {genblk1[0].genblk1[7].blkgen/blockOn4_i__0} {genblk1[0].genblk1[8].blkgen/blockOn4_i__0} {genblk1[0].genblk1[9].blkgen/blockOn4_i__0} {genblk1[1].genblk1[0].blkgen/blockOn4_i__0} {genblk1[1].genblk1[10].blkgen/blockOn4_i__0} {genblk1[1].genblk1[11].blkgen/blockOn4_i__0} {genblk1[1].genblk1[12].blkgen/blockOn4_i__0} {genblk1[1].genblk1[13].blkgen/blockOn4_i__0} {genblk1[1].genblk1[14].blkgen/blockOn4_i__0} {genblk1[1].genblk1[15].blkgen/blockOn4_i__0} {genblk1[1].genblk1[1].blkgen/blockOn4_i__0} {genblk1[1].genblk1[2].blkgen/blockOn4_i__0} {genblk1[1].genblk1[3].blkgen/blockOn4_i__0} {genblk1[1].genblk1[4].blkgen/blockOn4_i__0} {genblk1[1].genblk1[5].blkgen/blockOn4_i__0} {genblk1[1].genblk1[6].blkgen/blockOn4_i__0} {genblk1[1].genblk1[7].blkgen/blockOn4_i__0} {genblk1[1].genblk1[8].blkgen/blockOn4_i__0} {genblk1[1].genblk1[9].blkgen/blockOn4_i__0} {genblk1[2].genblk1[0].blkgen/blockOn4_i__0} {genblk1[2].genblk1[10].blkgen/blockOn4_i__0} {genblk1[2].genblk1[11].blkgen/blockOn4_i__0} {genblk1[2].genblk1[12].blkgen/blockOn4_i__0} {genblk1[2].genblk1[13].blkgen/blockOn4_i__0} {genblk1[2].genblk1[14].blkgen/blockOn4_i__0} {genblk1[2].genblk1[15].blkgen/blockOn4_i__0} {genblk1[2].genblk1[1].blkgen/blockOn4_i__0} {genblk1[2].genblk1[2].blkgen/blockOn4_i__0} {genblk1[2].genblk1[3].blkgen/blockOn4_i__0} {genblk1[2].genblk1[4].blkgen/blockOn4_i__0} {genblk1[2].genblk1[5].blkgen/blockOn4_i__0} {genblk1[2].genblk1[6].blkgen/blockOn4_i__0} {genblk1[2].genblk1[7].blkgen/blockOn4_i__0} {genblk1[2].genblk1[8].blkgen/blockOn4_i__0} {genblk1[2].genblk1[9].blkgen/blockOn4_i__0} {genblk1[3].genblk1[0].blkgen/blockOn4_i__0} {genblk1[3].genblk1[10].blkgen/blockOn4_i__0} {genblk1[3].genblk1[11].blkgen/blockOn4_i__0} {genblk1[3].genblk1[12].blkgen/blockOn4_i__0} {genblk1[3].genblk1[13].blkgen/blockOn4_i__0} {genblk1[3].genblk1[14].blkgen/blockOn4_i__0} {genblk1[3].genblk1[15].blkgen/blockOn4_i__0} {genblk1[3].genblk1[1].blkgen/blockOn4_i__0} {genblk1[3].genblk1[2].blkgen/blockOn4_i__0} {genblk1[3].genblk1[3].blkgen/blockOn4_i__0} {genblk1[3].genblk1[4].blkgen/blockOn4_i__0} {genblk1[3].genblk1[5].blkgen/blockOn4_i__0} {genblk1[3].genblk1[6].blkgen/blockOn4_i__0} {genblk1[3].genblk1[7].blkgen/blockOn4_i__0} {genblk1[3].genblk1[8].blkgen/blockOn4_i__0} {genblk1[3].genblk1[9].blkgen/blockOn4_i__0} —L
+303130∆L {color_instance/blockOn_local3_i__1} {color_instance/blockOn_local3_i__10} {color_instance/blockOn_local3_i__100} {color_instance/blockOn_local3_i__103} {color_instance/blockOn_local3_i__106} {color_instance/blockOn_local3_i__109} {color_instance/blockOn_local3_i__112} {color_instance/blockOn_local3_i__115} {color_instance/blockOn_local3_i__118} {color_instance/blockOn_local3_i__121} {color_instance/blockOn_local3_i__124} {color_instance/blockOn_local3_i__127} {color_instance/blockOn_local3_i__13} {color_instance/blockOn_local3_i__130} {color_instance/blockOn_local3_i__133} {color_instance/blockOn_local3_i__136} {color_instance/blockOn_local3_i__139} {color_instance/blockOn_local3_i__142} {color_instance/blockOn_local3_i__145} {color_instance/blockOn_local3_i__148} {color_instance/blockOn_local3_i__151} {color_instance/blockOn_local3_i__154} {color_instance/blockOn_local3_i__157} {color_instance/blockOn_local3_i__16} {color_instance/blockOn_local3_i__160} {color_instance/blockOn_local3_i__163} {color_instance/blockOn_local3_i__166} {color_instance/blockOn_local3_i__169} {color_instance/blockOn_local3_i__172} {color_instance/blockOn_local3_i__175} {color_instance/blockOn_local3_i__178} {color_instance/blockOn_local3_i__181} {color_instance/blockOn_local3_i__184} {color_instance/blockOn_local3_i__187} {color_instance/blockOn_local3_i__19} {color_instance/blockOn_local3_i__190} {color_instance/blockOn_local3_i__22} {color_instance/blockOn_local3_i__25} {color_instance/blockOn_local3_i__28} {color_instance/blockOn_local3_i__31} {color_instance/blockOn_local3_i__34} {color_instance/blockOn_local3_i__37} {color_instance/blockOn_local3_i__4} {color_instance/blockOn_local3_i__40} {color_instance/blockOn_local3_i__43} {color_instance/blockOn_local3_i__46} {color_instance/blockOn_local3_i__49} {color_instance/blockOn_local3_i__52} {color_instance/blockOn_local3_i__55} {color_instance/blockOn_local3_i__58} {color_instance/blockOn_local3_i__61} {color_instance/blockOn_local3_i__64} {color_instance/blockOn_local3_i__67} {color_instance/blockOn_local3_i__7} {color_instance/blockOn_local3_i__70} {color_instance/blockOn_local3_i__73} {color_instance/blockOn_local3_i__76} {color_instance/blockOn_local3_i__79} {color_instance/blockOn_local3_i__82} {color_instance/blockOn_local3_i__85} {color_instance/blockOn_local3_i__88} {color_instance/blockOn_local3_i__91} {color_instance/blockOn_local3_i__94} {color_instance/blockOn_local3_i__97} {color_instance/blockOn_local4_i__1} {color_instance/blockOn_local4_i__10} {color_instance/blockOn_local4_i__100} {color_instance/blockOn_local4_i__103} {color_instance/blockOn_local4_i__106} {color_instance/blockOn_local4_i__109} {color_instance/blockOn_local4_i__112} {color_instance/blockOn_local4_i__115} {color_instance/blockOn_local4_i__118} {color_instance/blockOn_local4_i__121} {color_instance/blockOn_local4_i__124} {color_instance/blockOn_local4_i__127} {color_instance/blockOn_local4_i__13} {color_instance/blockOn_local4_i__130} {color_instance/blockOn_local4_i__133} {color_instance/blockOn_local4_i__136} {color_instance/blockOn_local4_i__139} {color_instance/blockOn_local4_i__142} {color_instance/blockOn_local4_i__145} {color_instance/blockOn_local4_i__148} {color_instance/blockOn_local4_i__151} {color_instance/blockOn_local4_i__154} {color_instance/blockOn_local4_i__157} {color_instance/blockOn_local4_i__16} {color_instance/blockOn_local4_i__160} {color_instance/blockOn_local4_i__163} {color_instance/blockOn_local4_i__166} {color_instance/blockOn_local4_i__169} {color_instance/blockOn_local4_i__172} {color_instance/blockOn_local4_i__175} {color_instance/blockOn_local4_i__178} {color_instance/blockOn_local4_i__181} {color_instance/blockOn_local4_i__184} {color_instance/blockOn_local4_i__187} {color_instance/blockOn_local4_i__19} {color_instance/blockOn_local4_i__190} {color_instance/blockOn_local4_i__22} {color_instance/blockOn_local4_i__25} {color_instance/blockOn_local4_i__28} {color_instance/blockOn_local4_i__31} {color_instance/blockOn_local4_i__34} {color_instance/blockOn_local4_i__37} {color_instance/blockOn_local4_i__4} {color_instance/blockOn_local4_i__40} {color_instance/blockOn_local4_i__43} {color_instance/blockOn_local4_i__46} {color_instance/blockOn_local4_i__49} {color_instance/blockOn_local4_i__52} {color_instance/blockOn_local4_i__55} {color_instance/blockOn_local4_i__58} {color_instance/blockOn_local4_i__61} {color_instance/blockOn_local4_i__64} {color_instance/blockOn_local4_i__67} {color_instance/blockOn_local4_i__7} {color_instance/blockOn_local4_i__70} {color_instance/blockOn_local4_i__73} {color_instance/blockOn_local4_i__76} {color_instance/blockOn_local4_i__79} {color_instance/blockOn_local4_i__82} {color_instance/blockOn_local4_i__85} {color_instance/blockOn_local4_i__88} {color_instance/blockOn_local4_i__91} {color_instance/blockOn_local4_i__94} {color_instance/blockOn_local4_i__97} {color_instance/blockOn_local5_i} {color_instance/blockOn_local5_i__0} {color_instance/blockOn_local5_i__1} {color_instance/blockOn_local5_i__10} {color_instance/blockOn_local5_i__100} {color_instance/blockOn_local5_i__101} {color_instance/blockOn_local5_i__102} {color_instance/blockOn_local5_i__103} {color_instance/blockOn_local5_i__104} {color_instance/blockOn_local5_i__105} {color_instance/blockOn_local5_i__106} {color_instance/blockOn_local5_i__107} {color_instance/blockOn_local5_i__108} {color_instance/blockOn_local5_i__109} {color_instance/blockOn_local5_i__11} {color_instance/blockOn_local5_i__110} {color_instance/blockOn_local5_i__111} {color_instance/blockOn_local5_i__112} {color_instance/blockOn_local5_i__113} {color_instance/blockOn_local5_i__114} {color_instance/blockOn_local5_i__115} {color_instance/blockOn_local5_i__116} {color_instance/blockOn_local5_i__117} {color_instance/blockOn_local5_i__118} {color_instance/blockOn_local5_i__119} {color_instance/blockOn_local5_i__12} {color_instance/blockOn_local5_i__120} {color_instance/blockOn_local5_i__121} {color_instance/blockOn_local5_i__122} {color_instance/blockOn_local5_i__123} {color_instance/blockOn_local5_i__124} {color_instance/blockOn_local5_i__125} {color_instance/blockOn_local5_i__126} {color_instance/blockOn_local5_i__13} {color_instance/blockOn_local5_i__14} {color_instance/blockOn_local5_i__15} {color_instance/blockOn_local5_i__16} {color_instance/blockOn_local5_i__17} {color_instance/blockOn_local5_i__18} {color_instance/blockOn_local5_i__19} {color_instance/blockOn_local5_i__2} {color_instance/blockOn_local5_i__20} {color_instance/blockOn_local5_i__21} {color_instance/blockOn_local5_i__22} {color_instance/blockOn_local5_i__23} {color_instance/blockOn_local5_i__24} {color_instance/blockOn_local5_i__25} {color_instance/blockOn_local5_i__26} {color_instance/blockOn_local5_i__27} {color_instance/blockOn_local5_i__28} {color_instance/blockOn_local5_i__29} {color_instance/blockOn_local5_i__3} {color_instance/blockOn_local5_i__30} {color_instance/blockOn_local5_i__31} {color_instance/blockOn_local5_i__32} {color_instance/blockOn_local5_i__33} {color_instance/blockOn_local5_i__34} {color_instance/blockOn_local5_i__35} {color_instance/blockOn_local5_i__36} {color_instance/blockOn_local5_i__37} {color_instance/blockOn_local5_i__38} {color_instance/blockOn_local5_i__39} {color_instance/blockOn_local5_i__4} {color_instance/blockOn_local5_i__40} {color_instance/blockOn_local5_i__41} {color_instance/blockOn_local5_i__42} {color_instance/blockOn_local5_i__43} {color_instance/blockOn_local5_i__44} {color_instance/blockOn_local5_i__45} {color_instance/blockOn_local5_i__46} {color_instance/blockOn_local5_i__47} {color_instance/blockOn_local5_i__48} {color_instance/blockOn_local5_i__49} {color_instance/blockOn_local5_i__5} {color_instance/blockOn_local5_i__50} {color_instance/blockOn_local5_i__51} {color_instance/blockOn_local5_i__52} {color_instance/blockOn_local5_i__53} {color_instance/blockOn_local5_i__54} {color_instance/blockOn_local5_i__55} {color_instance/blockOn_local5_i__56} {color_instance/blockOn_local5_i__57} {color_instance/blockOn_local5_i__58} {color_instance/blockOn_local5_i__59} {color_instance/blockOn_local5_i__6} {color_instance/blockOn_local5_i__60} {color_instance/blockOn_local5_i__61} {color_instance/blockOn_local5_i__62} {color_instance/blockOn_local5_i__63} {color_instance/blockOn_local5_i__64} {color_instance/blockOn_local5_i__65} {color_instance/blockOn_local5_i__66} {color_instance/blockOn_local5_i__67} {color_instance/blockOn_local5_i__68} {color_instance/blockOn_local5_i__69} {color_instance/blockOn_local5_i__7} {color_instance/blockOn_local5_i__70} {color_instance/blockOn_local5_i__71} {color_instance/blockOn_local5_i__72} {color_instance/blockOn_local5_i__73} {color_instance/blockOn_local5_i__74} {color_instance/blockOn_local5_i__75} {color_instance/blockOn_local5_i__76} {color_instance/blockOn_local5_i__77} {color_instance/blockOn_local5_i__78} {color_instance/blockOn_local5_i__79} {color_instance/blockOn_local5_i__8} {color_instance/blockOn_local5_i__80} {color_instance/blockOn_local5_i__81} {color_instance/blockOn_local5_i__82} {color_instance/blockOn_local5_i__83} {color_instance/blockOn_local5_i__84} {color_instance/blockOn_local5_i__85} {color_instance/blockOn_local5_i__86} {color_instance/blockOn_local5_i__87} {color_instance/blockOn_local5_i__88} {color_instance/blockOn_local5_i__89} {color_instance/blockOn_local5_i__9} {color_instance/blockOn_local5_i__90} {color_instance/blockOn_local5_i__91} {color_instance/blockOn_local5_i__92} {color_instance/blockOn_local5_i__93} {color_instance/blockOn_local5_i__94} {color_instance/blockOn_local5_i__95} {color_instance/blockOn_local5_i__96} {color_instance/blockOn_local5_i__97} {color_instance/blockOn_local5_i__98} {color_instance/blockOn_local5_i__99} ≈
+blackBoxInfoD
+-mb_block_i/microblaze_0_local_memory/lmb_brammb_block_lmb_bram_0D
+ mb_block_i/microblaze_0_axi_intc mb_block_microblaze_0_axi_intc_0,
+mb_block_i/clk_wiz_1mb_block_clk_wiz_1_06
+mb_block_i/axi_uartlite_0mb_block_axi_uartlite_0_0D
+-mb_block_i/microblaze_0_local_memory/dlmb_v10mb_block_dlmb_v10_0D
+-mb_block_i/microblaze_0_local_memory/ilmb_v10mb_block_ilmb_v10_04
+mb_block_i/gpio_usb_keycodemb_block_axi_gpio_4_0X
+7mb_block_i/microblaze_0_local_memory/ilmb_bram_if_cntlrmb_block_ilmb_bram_if_cntlr_0>
+mb_block_i/rst_clk_wiz_1_100Mmb_block_rst_clk_wiz_1_100M_0
+vga_to_hdmi	hdmi_tx_0:
+'mb_block_i/microblaze_0_axi_periph/xbarmb_block_xbar_00
+mb_block_i/gpio_usb_rstmb_block_axi_gpio_0_1X
+7mb_block_i/microblaze_0_local_memory/dlmb_bram_if_cntlrmb_block_dlmb_bram_if_cntlr_0$
+mb_block_i/mdm_1mb_block_mdm_1_0/
+mb_block_i/spi_usbmb_block_axi_quad_spi_0_00
+mb_block_i/gpio_usb_intmb_block_axi_gpio_3_02
+mb_block_i/timer_usb_aximb_block_axi_timer_0_0
+clk_wiz	clk_wiz_02
+mb_block_i/microblaze_0mb_block_microblaze_0_0ä
+synth_design
+isIncremental0
+Runtime0
+Threads used2^
+argsV-verilog_define default::[not_specified] -top  mb_usb_hdmi_top -part  xc7s50csga324-1 
+resynthPerc0.00
+Cputime0
+blackBoxPercinf
+	directive ù
+synth_design_metrics$
+mismatchedAddSubOperatorWidths-1
+lowMaxFanout-1
+NumUnregisteredPorts0
+caseNotFullNoDefault-1
+	smallSrls-1
+srlsWithResetLogic-1
+shallowRAMWithAttribute-1
+hierMFO0
+bigRAMs-1
+NetsWithMixedFanouts-1
+DSPsWithKeep0
+RQS_Results
