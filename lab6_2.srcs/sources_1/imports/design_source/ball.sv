@@ -16,7 +16,7 @@
 
 module  ball ( input logic Reset, frame_clk,
 			   input logic [7:0] keycode,
-			   input logic up, down, left, right,
+			   input logic [15:0] up, down, left, right,
                input logic [9:0]  PaddleX, PaddleY, 
                output logic [9:0]  BallX, BallY, BallS );
     
@@ -41,6 +41,13 @@ module  ball ( input logic Reset, frame_clk,
     begin: Move_Ball
         if (Reset)  // asynchronous Reset
         begin 
+            Ball_Y_Motion <= 10'd0; //Ball_Y_Step;
+			Ball_X_Motion <= 10'd0; //Ball_X_Step;
+			BallY <= Ball_Y_Center;
+			BallX <= Ball_X_Center;
+        end
+        else if(keycode == 8'h2c)
+        begin
             Ball_Y_Motion <= 10'd1; //Ball_Y_Step;
 			Ball_X_Motion <= 10'd1; //Ball_X_Step;
 			BallY <= Ball_Y_Center;
@@ -76,23 +83,22 @@ module  ball ( input logic Reset, frame_clk,
                       Ball_Y_Motion <= (~ (Ball_Y_Step) + 1'b1);  
 					  Ball_X_Motion <= Ball_X_Motion;
                  end
-                 else if(up == 1'b1) // block up edge
-                 begin
-                      Ball_Y_Motion <= Ball_Y_Step;
-					  Ball_X_Motion <= Ball_X_Motion;
-					  
-                 end
-                 else if(down == 1'b1) // block down edge
+                 else if(up > 1'b0) // block up edge
                  begin
                       Ball_Y_Motion <= (~ (Ball_Y_Step) + 1'b1);  // 2's complement.
 					  Ball_X_Motion <= Ball_X_Motion;
                  end
-                 else if(left == 1'b1) // block left edge
+                 else if(down > 1'b0) // block down edge
+                 begin
+                      Ball_Y_Motion <= Ball_Y_Step;
+					  Ball_X_Motion <= Ball_X_Motion;
+                 end
+                 else if(left > 1'b0) // block left edge
                  begin
                       Ball_X_Motion <= (~ (Ball_X_Step) + 1'b1);  // 2's complement.
 					  Ball_Y_Motion <= Ball_Y_Motion;
                  end
-                 else if(right == 1'b1) // block right edge
+                 else if(right > 1'b0) // block right edge
                  begin
                       Ball_X_Motion <= Ball_X_Step;
 					  Ball_Y_Motion <= Ball_Y_Motion;

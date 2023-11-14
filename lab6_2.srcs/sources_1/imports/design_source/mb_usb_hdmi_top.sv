@@ -59,8 +59,12 @@ module mb_usb_hdmi_top(
     logic [3:0] red, green, blue;
     logic reset_ah;
     
-    logic up, down, left, right, blockOn;
+//    logic up, down, left, right, blockOn;
     logic [9:0] blockX, blockY;
+    
+    logic [15:0] blockOn_arr, up, down, left, right;
+    logic [9:0] blockX_arr [16];
+    logic [9:0] blockY_arr [16];
     
     assign reset_ah = reset_rtl_0;
     
@@ -76,7 +80,7 @@ module mb_usb_hdmi_top(
     HexDriver HexA (
         .clk(Clk),
         .reset(reset_ah),
-        .in({paddleX[3:0], paddleX[3:0], paddleX[3:0], paddleY[3:0]}),
+        .in({down[15:12], down[11:8], down[7:4], down[3:0]}),
         .hex_seg(hex_segA),
         .hex_grid(hex_gridA)
     );
@@ -176,22 +180,50 @@ module mb_usb_hdmi_top(
     );
     
     
-    block blk( 
-        .Reset(reset_ah), 
-        .frame_clk(vsync),
-        .BallX(ballxsig), 
-        .BallY(ballysig), 
-        .BallS(ballsizesig),
-	    .blockOn(blockOn), 
-	    .up(up), 
-	    .down(down), 
-	    .left(left), 
-	    .right(right),
-        .blockX(blockX), 
-        .blockY(blockY)
-    );
+    genvar i;
+    generate
+        for(i = 0; i < 16; i++)begin 
+            block #(
+                .Block_X_Center(i*10'd40+10'd20),     // Change the center position on the X axis
+                .Block_Y_Center(100),     
+                .Block_X_Min(0),
+                .Block_X_Max(639),
+                .BlockLen(19),            
+                .BlockWidth(10)           
+            )blkgen(
+                .Reset(reset_ah), 
+                .frame_clk(vsync),
+                .BallX(ballxsig), 
+                .BallY(ballysig), 
+                .BallS(ballsizesig),
+                .blockOn(blockOn_arr[i]), 
+                .up(up[i]), 
+                .down(down[i]), 
+                .left(left[i]), 
+                .right(right[i]),
+                .blockX(blockX_arr[i]), 
+                .blockY(blockY_arr[i])
+            );
+        end
+    endgenerate
+    
+//    block blk( 
+//        .Reset(reset_ah), 
+//        .frame_clk(vsync),
+//        .BallX(ballxsig), 
+//        .BallY(ballysig), 
+//        .BallS(ballsizesig),
+//	    .blockOn(blockOn), 
+//	    .up(up), 
+//	    .down(down), 
+//	    .left(left), 
+//	    .right(right),
+//        .blockX(blockX), 
+//        .blockY(blockY)
+//    );
     //Color Mapper Module   
-    color_mapper color_instance(
+    color_mapper #(.BlockLen(19), .BlockWidth(10))
+    color_instance(
         .PaddleX(paddleX),
         .PaddleY(paddleY),
         .BallX(ballxsig),
@@ -202,9 +234,9 @@ module mb_usb_hdmi_top(
         .Red(red),
         .Green(green),
         .Blue(blue),
-        .blockX(blockX),
-        .blockY(blockY),
-        .blockOn(blockOn)
+        .blockX(blockX_arr),
+        .blockY(blockY_arr),
+        .blockOn_arr(blockOn_arr)
     );
     
 endmodule

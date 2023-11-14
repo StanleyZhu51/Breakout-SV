@@ -20,21 +20,26 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module  block ( input logic Reset, frame_clk,
-                input logic [9:0] BallX, BallY, BallS,
-			    output logic blockOn, up, down, left, right,
-                output logic [9:0]  blockX, blockY);
+module  block #(
+    parameter [9:0] Block_X_Center=320,
+    parameter [9:0] Block_Y_Center=100,
+    parameter [9:0] Block_X_Min=0,
+    parameter [9:0] Block_X_Max=639,
+    parameter [9:0] BlockLen=15,
+    parameter [9:0] BlockWidth=7
+//    parameter int Block_X_Center=320,
+//    parameter int Block_Y_Center=100,
+//    parameter int Block_X_Min=0,
+//    parameter int Block_X_Max=639,
+//    parameter int BlockLen=15,
+//    parameter int BlockWidth=7
+    )(      // Step size on the Y axis)( 
+        input logic Reset, frame_clk,
+        input logic [9:0] BallX, BallY, BallS,
+        output logic blockOn, up, down, left, right,
+        output logic [9:0]  blockX, blockY
+    );
     
-    
-	 
-    parameter [9:0] Block_X_Center=320;  // Center position on the X axis
-    parameter [9:0] Block_Y_Center=100;  // Center position on the Y axis
-    parameter [9:0] Block_X_Min=0;       // Leftmost point on the X axis
-    parameter [9:0] Block_X_Max=639;     // Rightmost point on the X axis
-
-    parameter [9:0] BlockLen=15;      // Step size on the Y axis
-    parameter [9:0] BlockWidth=7;      // Step size on the Y axis
-
     assign blockX = Block_X_Center;
     assign blockY = Block_Y_Center;
     always_ff @ (posedge frame_clk or posedge Reset) //make sure the frame clock is instantiated correctly
@@ -56,7 +61,7 @@ module  block ( input logic Reset, frame_clk,
                     blockOn <= 1'b0;
                     up <= 1'b1;
                 end
-                else if(((BallY + BallS) == (Block_Y_Center + BlockWidth)) && ((BallX + BallS) >= Block_X_Center - BlockLen) && ((BallX - BallS) <= (Block_X_Center + BlockLen))) // hitting bottom of block
+                else if(((BallY - BallS) == (Block_Y_Center + BlockWidth)) && ((BallX + BallS) >= Block_X_Center - BlockLen) && ((BallX - BallS) <= (Block_X_Center + BlockLen))) // hitting bottom of block
                 begin
                     blockOn <= 1'b0;
                     down <= 1'b1;
